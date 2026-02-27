@@ -135,7 +135,7 @@ h4 {
     padding: 0.6rem 1.2rem;
     border-radius: 4px;
     cursor: pointer;
-    background-color: #e8600a;
+    background-color: #ffffff;
     border: 2px solid #e8600a;
     transition: var(--transition);
 }
