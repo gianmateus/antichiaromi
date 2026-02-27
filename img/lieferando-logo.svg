@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 80" width="120" height="32">
+  <!-- House icon -->
+  <g fill="#ffffff">
+    <!-- Roof -->
+    <polygon points="28,32 50,14 72,32" />
+    <!-- House body -->
+    <rect x="34" y="32" width="32" height="26" rx="2"/>
+    <!-- Fork (left) -->
+    <rect x="43" y="22" width="2.5" height="28" rx="1"/>
+    <rect x="43" y="22" width="2.5" height="8" rx="1"/>
+    <!-- Knife (right) -->
+    <rect x="55" y="22" width="2.5" height="28" rx="1"/>
+    <!-- Chimney -->
+    <rect x="56" y="16" width="6" height="10" rx="1"/>
+  </g>
+  <!-- Text "Lieferando" -->
+  <text x="88" y="53" font-family="'Arial Rounded MT Bold', 'Arial', sans-serif" font-weight="bold" font-size="30" fill="#ffffff" letter-spacing="-0.5">Lieferando</text>
+</svg>
