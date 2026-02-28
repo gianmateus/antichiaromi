@@ -107,6 +107,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // ===== EVENT POPUP: Sizilianische Tage =====
     const eventPopup = document.getElementById('event-popup');
+    const POPUP_KEY = 'sizilianischeTage_2026_seen';
+    const POPUP_TTL = 24 * 60 * 60 * 1000; // 24 hours in ms
 
     function openEventPopup() {
         eventPopup.classList.add('open');
@@ -117,11 +119,14 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!eventPopup) return;
         eventPopup.classList.remove('open');
         document.body.style.overflow = '';
-        sessionStorage.setItem('eventPopupDismissed', 'true');
+        localStorage.setItem(POPUP_KEY, Date.now().toString());
     }
 
-    // Show popup after 800ms — only once per browser session
-    if (!sessionStorage.getItem('eventPopupDismissed')) {
+    // Show popup after 800ms — once every 24 hours per device
+    const lastSeen = localStorage.getItem(POPUP_KEY);
+    const shouldShow = !lastSeen || (Date.now() - parseInt(lastSeen)) > POPUP_TTL;
+
+    if (shouldShow) {
         setTimeout(openEventPopup, 800);
     }
 
@@ -133,3 +138,4 @@ document.addEventListener('DOMContentLoaded', () => {
         if (e.target === eventPopup) closeEventPopup();
     });
 });
+
