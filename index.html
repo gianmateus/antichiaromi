@@ -17,6 +17,70 @@
 
 <body>
 
+    <!-- ===== EVENT POPUP: Sizilianische Tage ===== -->
+    <div id="event-popup" class="event-popup-overlay" role="dialog" aria-modal="true"
+        aria-labelledby="event-popup-title">
+        <div class="event-popup-card">
+            <!-- Close -->
+            <button class="event-popup-close" id="event-popup-close" aria-label="Schließen">&times;</button>
+
+            <!-- Top image banner -->
+            <div class="event-popup-image">
+                <img src="img/antichi-aromi-interiore.jpg" alt="Sizilianische Tage – Antichi Aromi Berlin">
+                <div class="event-popup-badge">Sondermenü</div>
+            </div>
+
+            <!-- Content -->
+            <div class="event-popup-body">
+                <p class="event-popup-dates">18. – 22. März 2026</p>
+                <h2 id="event-popup-title" class="event-popup-title">Sizilianische Tage</h2>
+                <p class="event-popup-subtitle">Erleben Sie eine kulinarische Reise durch Sizilien</p>
+
+                <div class="event-popup-menu">
+                    <div class="event-menu-item">
+                        <span class="event-menu-name">Caponata alla Siciliana</span>
+                        <span class="event-menu-desc">Auberginen Salat, süß sauer</span>
+                    </div>
+                    <div class="event-menu-item">
+                        <span class="event-menu-name">Carbonara di pesce spada</span>
+                        <span class="event-menu-desc">Pasta mit Schwertfisch-Würfeln, Ei und Pecorino Romano</span>
+                    </div>
+                    <div class="event-menu-item">
+                        <span class="event-menu-name">Pasta con sarde e pesto di finocchietto</span>
+                        <span class="event-menu-desc">Pasta mit Sardinen, Rosinen, Pinienkerne in Wild
+                            Fenchel-Pesto</span>
+                    </div>
+                    <div class="event-menu-item">
+                        <span class="event-menu-name">Involtini di pesce spada</span>
+                        <span class="event-menu-desc">Schwertfisch gefüllt mit Pinienkerne, Rosinen, Pecorino —
+                            Rosmarin-Kartoffeln</span>
+                    </div>
+                    <div class="event-menu-item">
+                        <span class="event-menu-name">Coniglio alla cacciatore</span>
+                        <span class="event-menu-desc">Kaninchenkeule mit Oliven, Pinienkerne, Kirschtomaten —
+                            Rosmarin-Kartoffeln</span>
+                    </div>
+                    <div class="event-menu-item highlight">
+                        <span class="event-menu-name">Cannolo alla Siciliana</span>
+                        <span class="event-menu-desc">Röhren Biskuit mit süßem Ricotta Pistazien-Creme</span>
+                    </div>
+                </div>
+
+                <blockquote class="event-popup-quote">
+                    „Platz nehmen, Augen schließen, Sizilien genießen."
+                </blockquote>
+
+                <div class="event-popup-actions">
+                    <a href="https://reservierung.gastroguide.de/Trattoria%20Antichi%20Aromi/279315" target="_blank"
+                        rel="noopener" class="event-popup-cta">
+                        Tisch Buchen
+                    </a>
+                    <button class="event-popup-skip" id="event-popup-skip">Nicht jetzt</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Header -->
     <header id="main-header">
         <div class="container">
@@ -1227,6 +1291,15 @@
                         <div class="contact-actions">
                             <a href="https://reservierung.gastroguide.de/Trattoria%20Antichi%20Aromi/279315"
                                 target="_blank" class="btn-primary">Tisch Reservieren</a>
+                            <a href="https://www.instagram.com/antichi_aromi_berlin/" target="_blank" rel="noopener"
+                                class="btn-instagram" aria-label="Instagram">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    width="18" height="18">
+                                    <path
+                                        d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.334 3.608 1.31.975.975 1.247 2.242 1.31 3.608.058 1.265.07 1.645.07 4.849s-.012 3.584-.07 4.85c-.062 1.366-.334 2.633-1.31 3.608-.975.975-2.242 1.247-3.608 1.31-1.265.058-1.645.07-4.849.07s-3.584-.012-4.85-.07c-1.366-.062-2.633-.334-3.608-1.31-.975-.975-1.247-2.242-1.31-3.608C2.175 15.584 2.163 15.204 2.163 12s.012-3.584.07-4.85c.062-1.366.334-2.633 1.31-3.608.975-.975 2.242-1.247 3.608-1.31C8.416 2.175 8.796 2.163 12 2.163zm0-2.163C8.741 0 8.332.014 7.052.072 5.197.157 3.355.73 2.014 2.072.673 3.413.1 5.255.014 7.11.014 8.39 0 8.799 0 12s.014 3.61.072 4.89c.086 1.855.659 3.697 2 5.038 1.341 1.341 3.183 1.914 5.038 2 1.28.058 1.689.072 4.89.072s3.61-.014 4.89-.072c1.855-.086 3.697-.659 5.038-2 1.341-1.341 1.914-3.183 2-5.038C23.986 15.61 24 15.201 24 12s-.014-3.61-.072-4.89c-.086-1.855-.659-3.697-2-5.038C20.587.73 18.745.157 16.89.072 15.61.014 15.201 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zm0 10.162a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z" />
+                                </svg>
+                                Folgen Sie uns
+                            </a>
                         </div>
                     </div>
                     <div class="map-container">
@@ -1243,6 +1316,14 @@
     <footer>
         <div class="container">
             <p>&copy; 2026 Antichi Aromi. Alle Rechte vorbehalten.</p>
+            <a href="https://www.instagram.com/antichi_aromi_berlin/" target="_blank" rel="noopener"
+                class="footer-instagram" aria-label="Instagram">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+                    <path
+                        d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.334 3.608 1.31.975.975 1.247 2.242 1.31 3.608.058 1.265.07 1.645.07 4.849s-.012 3.584-.07 4.85c-.062 1.366-.334 2.633-1.31 3.608-.975.975-2.242 1.247-3.608 1.31-1.265.058-1.645.07-4.849.07s-3.584-.012-4.85-.07c-1.366-.062-2.633-.334-3.608-1.31-.975-.975-1.247-2.242-1.31-3.608C2.175 15.584 2.163 15.204 2.163 12s.012-3.584.07-4.85c.062-1.366.334-2.633 1.31-3.608.975-.975 2.242-1.247 3.608-1.31C8.416 2.175 8.796 2.163 12 2.163zm0-2.163C8.741 0 8.332.014 7.052.072 5.197.157 3.355.73 2.014 2.072.673 3.413.1 5.255.014 7.11.014 8.39 0 8.799 0 12s.014 3.61.072 4.89c.086 1.855.659 3.697 2 5.038 1.341 1.341 3.183 1.914 5.038 2 1.28.058 1.689.072 4.89.072s3.61-.014 4.89-.072c1.855-.086 3.697-.659 5.038-2 1.341-1.341 1.914-3.183 2-5.038C23.986 15.61 24 15.201 24 12s-.014-3.61-.072-4.89c-.086-1.855-.659-3.697-2-5.038C20.587.73 18.745.157 16.89.072 15.61.014 15.201 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zm0 10.162a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z" />
+                </svg>
+                @antichi_aromi_berlin
+            </a>
             <div class="footer-links">
                 <button class="footer-link-btn" id="btn-impressum">Impressum</button>
                 <span class="footer-divider">|</span>

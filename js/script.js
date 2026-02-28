@@ -100,7 +100,36 @@ document.addEventListener('DOMContentLoaded', () => {
     document.addEventListener('keydown', (e) => {
         if (e.key === 'Escape') {
             document.querySelectorAll('.legal-modal').forEach(m => m.classList.remove('open'));
+            closeEventPopup();
             document.body.style.overflow = '';
         }
+    });
+
+    // ===== EVENT POPUP: Sizilianische Tage =====
+    const eventPopup = document.getElementById('event-popup');
+
+    function openEventPopup() {
+        eventPopup.classList.add('open');
+        document.body.style.overflow = 'hidden';
+    }
+
+    function closeEventPopup() {
+        if (!eventPopup) return;
+        eventPopup.classList.remove('open');
+        document.body.style.overflow = '';
+        sessionStorage.setItem('eventPopupDismissed', 'true');
+    }
+
+    // Show popup after 800ms — only once per browser session
+    if (!sessionStorage.getItem('eventPopupDismissed')) {
+        setTimeout(openEventPopup, 800);
+    }
+
+    document.getElementById('event-popup-close')?.addEventListener('click', closeEventPopup);
+    document.getElementById('event-popup-skip')?.addEventListener('click', closeEventPopup);
+
+    // Close on backdrop click
+    eventPopup?.addEventListener('click', (e) => {
+        if (e.target === eventPopup) closeEventPopup();
     });
 });
