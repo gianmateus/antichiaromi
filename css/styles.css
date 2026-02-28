@@ -580,12 +580,44 @@ h4 {
         display: flex;
     }
 
+    #hero {
+        padding-top: 70px;
+        /* compensate fixed header */
+        min-height: 100vh;
+        height: auto;
+    }
+
+    .hero-content {
+        padding: 2rem 0.5rem;
+    }
+
     .hero-content h1 {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
+        line-height: 1.25;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
     }
 
     .hero-buttons {
         flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .hero-buttons .btn-primary,
+    .hero-buttons .btn-secondary {
+        width: 100%;
+        max-width: 280px;
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+    .hero-buttons .btn-lieferando {
+        width: 100%;
+        max-width: 280px;
+        justify-content: center;
     }
 }
 
@@ -1020,12 +1052,37 @@ footer .container {
         gap: 2rem;
     }
 
+    .about-text,
+    .about-image {
+        min-width: unset;
+        width: 100%;
+    }
+
     .contact-grid {
         grid-template-columns: 1fr;
         gap: 2rem;
     }
 
+    .contact-actions {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .btn-instagram {
+        width: 100%;
+        justify-content: center;
+    }
+
     .legal-modal-box {
         padding: 1.75rem 1.25rem;
+    }
+
+    .menu-tabs {
+        padding: 0.5rem 0 0.75rem;
+        justify-content: flex-start;
+    }
+
+    .section-padding {
+        padding: 3.5rem 0;
     }
 }
