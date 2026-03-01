@@ -59,6 +59,39 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+    // Scroll arrows: hide/show based on scroll position, click to scroll
+    const menuTabs = document.getElementById('menu-category-tabs');
+    const tabsArrow = document.getElementById('menu-tabs-arrow');
+    const tabsArrowLeft = document.getElementById('menu-tabs-arrow-left');
+
+    function updateTabsArrow() {
+        if (!menuTabs) return;
+        const atEnd = menuTabs.scrollLeft + menuTabs.clientWidth >= menuTabs.scrollWidth - 4;
+        const atStart = menuTabs.scrollLeft <= 4;
+        if (tabsArrow) tabsArrow.classList.toggle('hidden', atEnd);
+        if (tabsArrowLeft) tabsArrowLeft.classList.toggle('hidden', atStart);
+    }
+
+    if (menuTabs) {
+        menuTabs.addEventListener('scroll', updateTabsArrow, { passive: true });
+        updateTabsArrow();
+        window.addEventListener('resize', updateTabsArrow);
+    }
+
+    // Right arrow click → scroll right
+    if (tabsArrow && menuTabs) {
+        tabsArrow.addEventListener('click', () => {
+            menuTabs.scrollBy({ left: 200, behavior: 'smooth' });
+        });
+    }
+
+    // Left arrow click → scroll left
+    if (tabsArrowLeft && menuTabs) {
+        tabsArrowLeft.addEventListener('click', () => {
+            menuTabs.scrollBy({ left: -200, behavior: 'smooth' });
+        });
+    }
+
     // Modais Legais: Impressum & Datenschutz
     function openModal(id) {
         const modal = document.getElementById(id);
