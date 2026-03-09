@@ -505,27 +505,33 @@ h4 {
 }
 
 .hero-content {
-    max-width: 800px;
+    max-width: 840px;
     animation: fadeIn 1.5s ease;
-    margin-top: -18vh;
+    margin-top: -5vh; /* Levemente acima para balancear com o header */
 }
 
 .hero-content h1 {
-    font-size: 2.3rem;
-    margin-bottom: 6rem;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 1.25;
+    margin-bottom: 1.5rem;
+    text-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+    letter-spacing: 0.02em;
 }
 
 .hero-content p {
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    font-size: 1.15rem;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    margin-bottom: 2.5rem;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+    color: #fce4e4; /* Um tom levemente creme/rosado para não ficar branco puro */
 }
 
 .hero-buttons {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 1.25rem;
     justify-content: center;
 }
 
