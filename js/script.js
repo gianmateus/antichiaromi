@@ -142,12 +142,13 @@ document.addEventListener("DOMContentLoaded", () => {
       document
         .querySelectorAll(".legal-modal")
         .forEach((m) => m.classList.remove("open"));
-      closeEventPopup();
+      // closeEventPopup();
       document.body.style.overflow = "";
     }
   });
 
   // ===== EVENT POPUP: Sizilianische Tage =====
+  /*
   const eventPopup = document.getElementById("event-popup");
 
   function openEventPopup() {
@@ -175,4 +176,5 @@ document.addEventListener("DOMContentLoaded", () => {
   eventPopup?.addEventListener("click", (e) => {
     if (e.target === eventPopup) closeEventPopup();
   });
+  */
 });
