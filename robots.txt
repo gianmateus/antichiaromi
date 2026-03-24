@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://antichi-aromi.de/sitemap.xml

@@ -148,7 +148,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // ===== EVENT POPUP: Sizilianische Tage =====
-  /*
   const eventPopup = document.getElementById("event-popup");
 
   function openEventPopup() {
@@ -176,5 +175,4 @@ document.addEventListener("DOMContentLoaded", () => {
   eventPopup?.addEventListener("click", (e) => {
     if (e.target === eventPopup) closeEventPopup();
   });
-  */
 });
