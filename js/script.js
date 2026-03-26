@@ -162,7 +162,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // Show popup after 800ms on every visit
-  setTimeout(openEventPopup, 800);
+  // setTimeout(openEventPopup, 800); // DEAKTIVIERT
 
   document
     .getElementById("event-popup-close")
