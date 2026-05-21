@@ -64,6 +64,25 @@
       ]
     }
   },
-  "hotPaths": [],
+  "hotPaths": [
+    {
+      "path": "css/styles.css",
+      "accessCount": 5,
+      "lastAccessed": 1779345991249,
+      "type": "file"
+    },
+    {
+      "path": "index.html",
+      "accessCount": 2,
+      "lastAccessed": 1779345976689,
+      "type": "file"
+    },
+    {
+      "path": "footer-screenshot.png",
+      "accessCount": 1,
+      "lastAccessed": 1779346055355,
+      "type": "file"
+    }
+  ],
   "userDirectives": []
 }
