@@ -1095,23 +1095,35 @@ h4 {
 footer {
   background-color: var(--color-primary);
   color: var(--color-white);
-  text-align: center;
-  padding: 2rem 0;
+  padding: 1rem 0;
   margin-top: auto;
 }
 
 footer .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.6rem;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  gap: 0.3rem;
 }
 
-.footer-links {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
+footer p {
+  margin: 0;
+  font-size: 0.85rem;
 }
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer-middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
 
 .footer-divider {
   opacity: 0.5;
@@ -1260,15 +1272,15 @@ footer .container {
 .footer-instagram {
   display: inline-flex;
   align-items: center;
-  gap: 0.45rem;
+  gap: 0.35rem;
   color: rgba(255, 255, 255, 0.7);
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   text-decoration: none;
   letter-spacing: 0.03em;
   transition:
     color 0.2s,
     transform 0.2s;
-  margin-bottom: 0.25rem;
+  white-space: nowrap;
 }
 
 .footer-instagram:hover {
@@ -1277,8 +1289,8 @@ footer .container {
 }
 
 .dev-credit {
-  margin-top: 0.75rem;
-  font-size: 0.7rem;
+  margin: 0;
+  font-size: 0.65rem;
   opacity: 0.35;
   letter-spacing: 0.03em;
 }

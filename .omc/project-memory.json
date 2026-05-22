@@ -1,0 +1,88 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1779308757899,
+  "projectRoot": "/Users/mateusemaria/antichiaromi",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [],
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "css": {
+      "path": "css",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1779308757873,
+      "keyFiles": [
+        "styles.css"
+      ]
+    },
+    "img": {
+      "path": "img",
+      "purpose": null,
+      "fileCount": 11,
+      "lastAccessed": 1779308757874,
+      "keyFiles": [
+        "407862-Lieferando-Logo-Orange-Primary-Hor-RGB-01-4f2092-original-1637232254.png",
+        "antichi-aromi-interiore.jpg",
+        "carbonara.jpg.jpeg",
+        "imaagine4.jpg.jpeg",
+        "imagaine3.jpg.jpeg"
+      ]
+    },
+    "js": {
+      "path": "js",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1779308757874,
+      "keyFiles": [
+        "script.js"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "css/styles.css",
+      "accessCount": 5,
+      "lastAccessed": 1779345991249,
+      "type": "file"
+    },
+    {
+      "path": "index.html",
+      "accessCount": 2,
+      "lastAccessed": 1779345976689,
+      "type": "file"
+    },
+    {
+      "path": "footer-screenshot.png",
+      "accessCount": 1,
+      "lastAccessed": 1779346055355,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
