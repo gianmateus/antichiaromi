@@ -67,14 +67,14 @@
   "hotPaths": [
     {
       "path": "css/styles.css",
-      "accessCount": 5,
-      "lastAccessed": 1779345991249,
+      "accessCount": 7,
+      "lastAccessed": 1779980859623,
       "type": "file"
     },
     {
       "path": "index.html",
-      "accessCount": 3,
-      "lastAccessed": 1779980257517,
+      "accessCount": 5,
+      "lastAccessed": 1779980847907,
       "type": "file"
     },
     {
@@ -93,6 +93,12 @@
       "path": "popup-test.png",
       "accessCount": 1,
       "lastAccessed": 1779980388197,
+      "type": "file"
+    },
+    {
+      "path": "popup-menu-test.png",
+      "accessCount": 1,
+      "lastAccessed": 1779980962830,
       "type": "file"
     }
   ],

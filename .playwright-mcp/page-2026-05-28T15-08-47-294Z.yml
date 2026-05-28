@@ -1,0 +1,233 @@
+- generic [active] [ref=e1]:
+  - dialog "Sizilianische Tage" [ref=e175]:
+    - generic [ref=e176]:
+      - button "Schließen" [ref=e177] [cursor=pointer]: ×
+      - img "Sizilianische Tage – Antichi Aromi Berlin" [ref=e179]
+      - generic [ref=e180]:
+        - paragraph [ref=e181]: 18. – 21. Juni 2026
+        - heading "Sizilianische Tage" [level=2] [ref=e182]
+        - paragraph [ref=e183]: Erleben Sie eine Kulinarische Reise durch Sizilien
+        - blockquote [ref=e184]: „Platz nehmen, Augen schließen, Sizilien genießen."
+        - generic [ref=e185]:
+          - heading "Spezialitäten der Woche" [level=3] [ref=e186]
+          - generic [ref=e187]:
+            - generic [ref=e188]: Caponata alla siciliana
+            - generic [ref=e189]: Auberginen Salat, süß sauer
+          - generic [ref=e190]:
+            - generic [ref=e191]: Pasta con sarde e pesto di finocchietto
+            - generic [ref=e192]: Pasta mit Sardinen, Rosinen, Pinienkerne in Wildfenchel-Pesto
+          - generic [ref=e193]:
+            - generic [ref=e194]: Coniglio alla cacciatore
+            - generic [ref=e195]: Kaninchenkeule mit Oliven, Pinienkerne, Kirschtomaten — Rosmarin-Kartoffeln
+          - generic [ref=e196]:
+            - generic [ref=e197]: Pasta con Pesce Spada e mentuccia
+            - generic [ref=e198]: Pasta mit Schwertfisch und Poleiminze
+          - generic [ref=e199]:
+            - generic [ref=e200]: Pesce Spada alla griglia con aromi
+            - generic [ref=e201]: Gegrillter Schwertfisch mit Aromakräutern
+          - generic [ref=e202]:
+            - generic [ref=e203]: Cannolo alla siciliana
+            - generic [ref=e204]: Röhren Biskuit mit süßem Ricotta Pistazien-Creme
+        - generic [ref=e205]:
+          - link "Tisch Reservieren" [ref=e206] [cursor=pointer]:
+            - /url: https://reservierung.gastroguide.de/Trattoria%20Antichi%20Aromi/279315
+          - button "Nicht jetzt" [ref=e207] [cursor=pointer]
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Antichi Aromi" [ref=e4] [cursor=pointer]:
+        - /url: "#"
+      - navigation [ref=e5]:
+        - list [ref=e6]:
+          - listitem [ref=e7]:
+            - link "Über Uns" [ref=e8] [cursor=pointer]:
+              - /url: "#about"
+          - listitem [ref=e9]:
+            - link "Speisekarte" [ref=e10] [cursor=pointer]:
+              - /url: "#menu"
+          - listitem [ref=e11]:
+            - link "Galerie" [ref=e12] [cursor=pointer]:
+              - /url: "#gallery"
+          - listitem [ref=e13]:
+            - link "Kontakt" [ref=e14] [cursor=pointer]:
+              - /url: "#contact"
+          - listitem [ref=e15]:
+            - link "Tisch Reservieren" [ref=e16] [cursor=pointer]:
+              - /url: https://reservierung.gastroguide.de/Trattoria%20Antichi%20Aromi/279315
+    - generic:
+      - list:
+        - listitem:
+          - link "Über Uns":
+            - /url: "#about"
+        - listitem:
+          - link "Speisekarte":
+            - /url: "#menu"
+        - listitem:
+          - link "Galerie":
+            - /url: "#gallery"
+        - listitem:
+          - link "Kontakt":
+            - /url: "#contact"
+        - listitem:
+          - link "Tisch Reservieren":
+            - /url: https://reservierung.gastroguide.de/Trattoria%20Antichi%20Aromi/279315
+  - generic [ref=e17]:
+    - generic [ref=e18]:
+      - heading "Willkommen bei Ihrem Italiener im Herzen von Prenzlauer Berg" [level=1] [ref=e19]
+      - paragraph [ref=e20]: Lassen Sie den Stress des Alltags hinter sich und gönnen Sie sich eine Auszeit inmitten der warmen Sonne Siziliens. Lassen Sie sich von uns mit köstlichen, authentischen Gerichten und erlesenen Weinen verwöhnen.
+      - paragraph [ref=e21]: "Unsere Öffnungszeiten: Di–Sa 17–23 Uhr · So 16–23 Uhr · Mo Ruhetag"
+      - generic [ref=e22]:
+        - link "Speisekarte ansehen" [ref=e23] [cursor=pointer]:
+          - /url: "#menu"
+        - link "Jetzt Reservieren" [ref=e24] [cursor=pointer]:
+          - /url: https://reservierung.gastroguide.de/Trattoria%20Antichi%20Aromi/279315
+    - generic [ref=e25]: ↓
+  - main [ref=e26]:
+    - generic [ref=e28]:
+      - heading "Über Uns" [level=2] [ref=e29]
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - heading "Authentisch & Familiär" [level=3] [ref=e32]
+          - paragraph [ref=e33]: Willkommen bei Ihrem Italiener im Herzen von Prenzlauer Berg. Schön, dass Sie zu uns gefunden haben – hier in unserem familiären Restaurant, wo jeder Besuch ein kleines Stück Urlaub wird.
+          - paragraph [ref=e34]: Wir legen großen Wert auf Tradition und Qualität. Unsere Gerichte werden nach original italienischen Rezepten zubereitet, mit frischen Zutaten und viel Liebe zum Detail. Erleben Sie die echte italienische Gastfreundschaft.
+        - img "Restaurant Interieur" [ref=e36]
+    - generic [ref=e38]:
+      - heading "Unsere Karte" [level=2] [ref=e39]
+      - generic [ref=e40]:
+        - generic: ‹
+        - generic [ref=e41]:
+          - button "⭐ Empfehlungskarte" [ref=e42] [cursor=pointer]
+          - button "Antipasti" [ref=e43] [cursor=pointer]
+          - button "Zuppa" [ref=e44] [cursor=pointer]
+          - button "Insalate" [ref=e45] [cursor=pointer]
+          - button "Focaccia" [ref=e46] [cursor=pointer]
+          - button "Pizza" [ref=e47] [cursor=pointer]
+          - button "Pasta" [ref=e48] [cursor=pointer]
+          - button "Carne" [ref=e49] [cursor=pointer]
+          - button "Pesce" [ref=e50] [cursor=pointer]
+          - button "Dolci" [ref=e51] [cursor=pointer]
+          - button "Vini" [ref=e52] [cursor=pointer]
+        - generic [ref=e53] [cursor=pointer]: ›
+      - generic [ref=e55]:
+        - heading "Unsere Empfehlungen" [level=3] [ref=e56]
+        - generic [ref=e57]:
+          - generic [ref=e58]:
+            - generic [ref=e59]:
+              - generic [ref=e60]: Caponata
+              - generic [ref=e61]: 13,50
+            - paragraph [ref=e62]: Caponata – Sizilianisches süß-saures Gemüsegericht aus Auberginen.
+          - generic [ref=e63]:
+            - generic [ref=e64]:
+              - generic [ref=e65]: Arancini
+              - generic [ref=e66]: 9,00
+            - paragraph [ref=e67]: Sizilianische Reisbällchen mit Rindfleisch und Erbsen
+          - generic [ref=e68]:
+            - generic [ref=e69]:
+              - generic [ref=e70]: Burratina con ciliegino e crudo
+              - generic [ref=e71]: 14,50
+            - paragraph [ref=e72]: Frische Burrata Mozzarella mit Kirschtomaten und Luftgetrockneter Landschinken
+          - generic [ref=e73]:
+            - generic [ref=e74]:
+              - generic [ref=e75]: Calamaretti su insalata di stagione
+              - generic [ref=e76]: 14,50
+            - paragraph [ref=e77]: Frische baby Calamaretti auf gemischtem Salat serviert
+          - generic [ref=e78]:
+            - generic [ref=e79]:
+              - generic [ref=e80]: Tagliolini al tartufo
+              - generic [ref=e81]: 21,50
+            - paragraph [ref=e82]: Hausgemachte feine Bandnudeln in einer edlen Butter-Trüffel-Parmesan-Sauce. Veredelt mit frisch gehobeltem schwarzem Trüffel
+          - generic [ref=e83]:
+            - generic [ref=e84]:
+              - generic [ref=e85]: Pasta con calamaretti e ceci
+              - generic [ref=e86]: 16,50
+            - paragraph [ref=e87]: Pasta mit frischem baby Calamaretti, Knoblauch, Chili, Cherrytomaten und Kichererbsen
+          - generic [ref=e88]:
+            - generic [ref=e89]:
+              - generic [ref=e90]: Tagliolini aurora
+              - generic [ref=e91]: 19,50
+            - paragraph [ref=e92]: Hausgemachte feine Bandnudeln in einer cremigen Tomaten-Sahnesauce (Aurora), verfeinert mit kurz gebratenen Rinderstreifen und marktfrischem Spargelstücken
+          - generic [ref=e93]:
+            - generic [ref=e94]:
+              - generic [ref=e95]: Salmone su Lenticchie
+              - generic [ref=e96]: 27,50
+            - paragraph [ref=e97]: Gebratenes Lachsfilet, auf Belugalinsen dazu Rosmarin Kartoffeln und marktfrischem Spargel
+          - generic [ref=e98]:
+            - generic [ref=e99]:
+              - generic [ref=e100]: Filetto di manzo ai cantarelli
+              - generic [ref=e101]: 31,50
+            - paragraph [ref=e102]: Medaillons vom Rinderfilet mit frischen saurtierten Pfifferlingen, serviert mit Kartoffeln und marktfrischem Spargel
+          - generic [ref=e103]:
+            - generic [ref=e104]:
+              - generic [ref=e105]: Pizza milano
+              - generic [ref=e106]: 15,50
+            - paragraph [ref=e107]: Pizza mit Tomatensauce, Mozzarella, Fenchel Salami, Peperoni und Zwiebeln
+          - generic [ref=e108]:
+            - generic [ref=e109]:
+              - generic [ref=e110]: Pizza Burratina e crudo
+              - generic [ref=e111]: 16,00
+            - paragraph [ref=e112]: Pizza mit Tomatensauce, Burrata Mozzarella, Kirschtomaten und Luftgetrockneter Landschinken
+        - heading "Dessert" [level=3] [ref=e113]
+        - generic [ref=e115]:
+          - generic [ref=e116]:
+            - generic [ref=e117]: Profiteroles al pistacchio
+            - generic [ref=e118]: 8,50
+          - paragraph [ref=e119]: Brandteigkugeln gefüllt mit vanilliger Pâtisseriecreme, umhüllt mit Pistaziencreme und Pistazien Stückchen
+        - generic [ref=e120]:
+          - heading "Wein-Empfehlung aus Sizilien" [level=4] [ref=e121]
+          - generic [ref=e122]:
+            - generic [ref=e123]:
+              - generic [ref=e124]: Rotwein-Nero D´Avola
+              - paragraph [ref=e125]: 0,2L. 8,50€ 0,5L. 20,00€ Flasche 0,75L. 27,50€
+            - generic [ref=e126]:
+              - generic [ref=e127]: Weißwein-Grillo
+              - paragraph [ref=e128]: 0,2L. 8,50€ 0,5L. 20,00€ Flasche 0,75L. 27,50€
+    - generic [ref=e130]:
+      - heading "Galerie" [level=2] [ref=e131]
+      - generic [ref=e132]:
+        - img "Pasta" [ref=e134]
+        - img "Pizza" [ref=e136]
+        - img "Vitello" [ref=e138]
+        - img "Vino" [ref=e140]
+    - generic [ref=e142]:
+      - heading "Kontakt & Reservierung" [level=2] [ref=e143]
+      - generic [ref=e144]:
+        - generic [ref=e145]:
+          - generic [ref=e146]:
+            - heading "Adresse" [level=4] [ref=e147]
+            - paragraph [ref=e148]:
+              - text: Greifenhagener Str. 38
+              - text: 10437 Berlin
+          - generic [ref=e149]:
+            - heading "Öffnungszeiten" [level=4] [ref=e150]
+            - paragraph [ref=e151]:
+              - text: "Di - Sa: 17:00 - 23:00 Uhr"
+              - text: "So: 16:00 - 23:00 Uhr"
+              - text: "Mo: Ruhetag"
+          - generic [ref=e152]:
+            - heading "Kontakt" [level=4] [ref=e153]
+            - paragraph [ref=e154]:
+              - text: "Tel: +49 30 84513261"
+              - text: "Email: info@antichi-aromi.de"
+          - generic [ref=e155]:
+            - link "Tisch Reservieren" [ref=e156] [cursor=pointer]:
+              - /url: https://reservierung.gastroguide.de/Trattoria%20Antichi%20Aromi/279315
+            - link "Instagram" [ref=e157] [cursor=pointer]:
+              - /url: https://www.instagram.com/antichi_aromi_berlin/
+              - img [ref=e158]
+              - text: Folgen Sie uns
+        - iframe [ref=e161]
+  - contentinfo [ref=e162]:
+    - generic [ref=e163]:
+      - generic [ref=e164]:
+        - paragraph [ref=e165]: © 2026 Antichi Aromi. Alle Rechte vorbehalten.
+        - link "Instagram" [ref=e166] [cursor=pointer]:
+          - /url: https://www.instagram.com/antichi_aromi_berlin/
+          - img [ref=e167]
+          - text: "@antichi_aromi_berlin"
+      - generic [ref=e169]:
+        - button "Impressum" [ref=e170] [cursor=pointer]
+        - generic [ref=e171]: "|"
+        - button "Datenschutz" [ref=e172] [cursor=pointer]
+      - paragraph [ref=e173]:
+        - text: Website by
+        - link "Mateus Marques" [ref=e174] [cursor=pointer]:
+          - /url: https://builtbymateus.com/
