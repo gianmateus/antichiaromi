@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastScanned": 1779308757899,
+  "lastScanned": 1779980185496,
   "projectRoot": "/Users/mateusemaria/antichiaromi",
   "techStack": {
     "languages": [],
@@ -36,7 +36,7 @@
       "path": "css",
       "purpose": null,
       "fileCount": 1,
-      "lastAccessed": 1779308757873,
+      "lastAccessed": 1779980185468,
       "keyFiles": [
         "styles.css"
       ]
@@ -45,7 +45,7 @@
       "path": "img",
       "purpose": null,
       "fileCount": 11,
-      "lastAccessed": 1779308757874,
+      "lastAccessed": 1779980185471,
       "keyFiles": [
         "407862-Lieferando-Logo-Orange-Primary-Hor-RGB-01-4f2092-original-1637232254.png",
         "antichi-aromi-interiore.jpg",
@@ -58,7 +58,7 @@
       "path": "js",
       "purpose": null,
       "fileCount": 1,
-      "lastAccessed": 1779308757874,
+      "lastAccessed": 1779980185471,
       "keyFiles": [
         "script.js"
       ]
@@ -73,14 +73,26 @@
     },
     {
       "path": "index.html",
+      "accessCount": 3,
+      "lastAccessed": 1779980257517,
+      "type": "file"
+    },
+    {
+      "path": "js/script.js",
       "accessCount": 2,
-      "lastAccessed": 1779345976689,
+      "lastAccessed": 1779980274328,
       "type": "file"
     },
     {
       "path": "footer-screenshot.png",
       "accessCount": 1,
       "lastAccessed": 1779346055355,
+      "type": "file"
+    },
+    {
+      "path": "popup-test.png",
+      "accessCount": 1,
+      "lastAccessed": 1779980388197,
       "type": "file"
     }
   ],
