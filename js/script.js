@@ -161,8 +161,8 @@ document.addEventListener("DOMContentLoaded", () => {
     document.body.style.overflow = "";
   }
 
-  // Show popup after 800ms on every visit
-  setTimeout(openEventPopup, 800);
+  // Disabled event popup autostart
+  // setTimeout(openEventPopup, 800);
 
   document
     .getElementById("event-popup-close")
