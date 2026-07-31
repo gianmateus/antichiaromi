@@ -10,16 +10,16 @@
 
 ### Sobre o Projeto
 
-Site estático desenvolvido com **HTML, CSS e JavaScript puro** para o restaurante italiano Antichi Aromi, em Berlim. O site apresenta o cardápio completo, galeria de fotos, informações de contato, mapa e formulário de reserva.
+Site estático desenvolvido com **HTML, CSS e JavaScript puro** para o restaurante italiano Antichi Aromi, em Berlim. Design com vídeo cinematográfico no hero, cardápio completo carregado dinamicamente e conteúdo bilíngue (alemão/inglês).
 
 ### Funcionalidades
 
-- 🍽️ Cardápio interativo com abas por categoria (Antipasti, Pizza, Pasta, Vini e mais)
-- 🖼️ Galeria de fotos do restaurante
-- 📍 Mapa integrado (Google Maps)
-- 📅 Popup de evento com destaque para as "Sizilianische Tage"
+- 🎬 Hero em vídeo com animação de scroll (GSAP + ScrollTrigger, scroll suave via Lenis)
+- 🍝 Cardápio completo carregado dinamicamente por categoria (accordion), com fallback estático
+- 🌐 Alternância de idioma Alemão/Inglês (persistida no navegador), incluindo cardápio, menu semanal e modais legais
+- 📅 Popup de aviso (ex: pausa de verão) com controle de data de expiração
 - 📱 Design responsivo (mobile-first)
-- ⚖️ Modais de Impressum e Datenschutz (conformidade legal alemã)
+- ⚖️ Modais de Impressum e Datenschutz (conformidade legal alemã), bilíngues
 
 ### Informações do Restaurante
 
@@ -35,16 +35,28 @@ Site estático desenvolvido com **HTML, CSS e JavaScript puro** para o restauran
 ### Tecnologias
 
 - HTML5 · CSS3 · JavaScript (Vanilla)
-- Google Fonts (Playfair Display, Lato)
-- Google Maps Embed
+- GSAP + ScrollTrigger (animações), Lenis (scroll suave)
+- Google Fonts (Fraunces, Manrope, DM Mono)
+
+### Estrutura
+
+```
+index.html            página principal
+styles.css / script.js / i18n.js
+assets/
+  images/              fotos dos pratos e do restaurante
+  video/               vídeos do hero
+  menu-source.html     cardápio completo (alemão)
+  menu-source.en.html  cardápio completo (inglês)
+```
 
 ### Como rodar localmente
 
-Basta abrir o arquivo `index.html` diretamente no navegador — nenhuma dependência ou build necessário.
+Basta abrir o arquivo `index.html` diretamente no navegador, ou servir a pasta com qualquer servidor estático (o cardápio completo é carregado via `fetch`, então alguns navegadores exigem `http://` em vez de `file://`).
 
 ### Deploy
 
-O site está publicado via **Netlify** com deploy automático a partir deste repositório.
+O site é publicado via **Netlify** com deploy automático a partir deste repositório.
 
 ---
 
@@ -52,16 +64,16 @@ O site está publicado via **Netlify** com deploy automático a partir deste rep
 
 ### About the Project
 
-A static website built with **pure HTML, CSS and JavaScript** for the Italian restaurant Antichi Aromi in Berlin. It features the full menu, photo gallery, contact information, map and reservation button.
+A static website built with **pure HTML, CSS and JavaScript** for the Italian restaurant Antichi Aromi in Berlin. Cinematic video hero, dynamically loaded full menu, and bilingual (German/English) content.
 
 ### Features
 
-- 🍽️ Interactive tabbed menu (Antipasti, Pizza, Pasta, Vini and more)
-- 🖼️ Photo gallery of the restaurant
-- 📍 Integrated Google Maps
-- 📅 Event popup highlighting the "Sizilianische Tage"
+- 🎬 Video hero with scroll-driven animation (GSAP + ScrollTrigger, smooth scroll via Lenis)
+- 🍝 Full menu loaded dynamically by category (accordion), with a static fallback
+- 🌐 German/English language toggle (persisted in the browser), covering the menu, weekly specials and legal modals
+- 📅 Announcement popup (e.g. summer break) with an expiry date built in
 - 📱 Fully responsive design (mobile-first)
-- ⚖️ Impressum & Datenschutz modals (German legal compliance)
+- ⚖️ Impressum & Datenschutz modals (German legal compliance), bilingual
 
 ### Restaurant Info
 
@@ -77,12 +89,12 @@ A static website built with **pure HTML, CSS and JavaScript** for the Italian re
 ### Tech Stack
 
 - HTML5 · CSS3 · JavaScript (Vanilla)
-- Google Fonts (Playfair Display, Lato)
-- Google Maps Embed
+- GSAP + ScrollTrigger (animations), Lenis (smooth scroll)
+- Google Fonts (Fraunces, Manrope, DM Mono)
 
 ### Running Locally
 
-Just open `index.html` directly in your browser — no dependencies or build step required.
+Open `index.html` directly in your browser, or serve the folder with any static server (the full menu is loaded via `fetch`, so some browsers require `http://` rather than `file://`).
 
 ### Deployment
 
@@ -94,16 +106,16 @@ The site is hosted on **Netlify** with automatic deploys from this repository.
 
 ### Über das Projekt
 
-Eine statische Website, entwickelt mit **reinem HTML, CSS und JavaScript**, für das italienische Restaurant Antichi Aromi in Berlin. Die Seite präsentiert die vollständige Speisekarte, eine Fotogalerie, Kontaktinformationen, Karte und Reservierungsmöglichkeit.
+Eine statische Website, entwickelt mit **reinem HTML, CSS und JavaScript**, für das italienische Restaurant Antichi Aromi in Berlin. Filmischer Video-Hero, dynamisch geladene vollständige Speisekarte und zweisprachiger Inhalt (Deutsch/Englisch).
 
 ### Funktionen
 
-- 🍽️ Interaktive Speisekarte mit Kategoriereitern (Antipasti, Pizza, Pasta, Vini u.v.m.)
-- 🖼️ Fotogalerie des Restaurants
-- 📍 Google Maps Integration
-- 📅 Event-Popup für die „Sizilianische Tage"
+- 🎬 Video-Hero mit scrollgesteuerter Animation (GSAP + ScrollTrigger, sanftes Scrollen via Lenis)
+- 🍝 Vollständige Speisekarte, dynamisch nach Kategorie geladen (Akkordeon), mit statischem Fallback
+- 🌐 Sprachumschalter Deutsch/Englisch (im Browser gespeichert), inkl. Speisekarte, Wochenempfehlung und rechtlichen Modals
+- 📅 Hinweis-Popup (z.B. Sommerpause) mit eingebautem Ablaufdatum
 - 📱 Vollständig responsives Design (Mobile-First)
-- ⚖️ Impressum & Datenschutzerklärung (gesetzeskonforme Modals)
+- ⚖️ Impressum & Datenschutzerklärung (gesetzeskonforme Modals), zweisprachig
 
 ### Restaurantinformationen
 
@@ -119,12 +131,12 @@ Eine statische Website, entwickelt mit **reinem HTML, CSS und JavaScript**, für
 ### Technologien
 
 - HTML5 · CSS3 · JavaScript (Vanilla)
-- Google Fonts (Playfair Display, Lato)
-- Google Maps Embed
+- GSAP + ScrollTrigger (Animationen), Lenis (sanftes Scrollen)
+- Google Fonts (Fraunces, Manrope, DM Mono)
 
 ### Lokale Ausführung
 
-Einfach die Datei `index.html` direkt im Browser öffnen – keine Abhängigkeiten oder Build-Schritt erforderlich.
+Einfach die Datei `index.html` direkt im Browser öffnen, oder den Ordner über einen beliebigen statischen Server bereitstellen (die vollständige Speisekarte wird per `fetch` geladen, weshalb manche Browser `http://` statt `file://` benötigen).
 
 ### Deployment
 

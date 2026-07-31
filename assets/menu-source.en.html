@@ -1,0 +1,1609 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Antichi Aromi – Ihr authentisches italienisches Restaurant in Berlin Prenzlauer Berg. Genießen Sie sizilianische Spezialitäten, Steinofenpizza und erlesene Weine in familiärer Atmosphäre. Jetzt Tisch reservieren!" />
+    <meta name="keywords"
+        content="Italienisches Restaurant Berlin, Prenzlauer Berg, Sizilianische Küche Berlin, Pizza Berlin, Pasta Berlin, Antichi Aromi Restaurant, Restaurant Berlin Nord" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://antichi-aromi.de/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://antichi-aromi.de/" />
+    <meta property="og:title" content="Antichi Aromi | Italienisches Restaurant Berlin Prenzlauer Berg" />
+    <meta property="og:description"
+        content="Authentische sizilianische Spezialitäten in familiärer Atmosphäre. Entdecken Sie unsere Spezialitätenkarte." />
+    <meta property="og:image" content="https://antichi-aromi.de/img/antichi-aromi-interiore.jpg" />
+
+    <!-- Twitter Card -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://antichi-aromi.de/" />
+    <meta property="twitter:title" content="Antichi Aromi | Italienisches Restaurant Berlin Prenzlauer Berg" />
+    <meta property="twitter:description"
+        content="Authentische sizilianische Spezialitäten in familiärer Atmosphäre. Entdecken Sie unsere Spezialitätenkarte." />
+    <meta property="twitter:image" content="https://antichi-aromi.de/img/antichi-aromi-interiore.jpg" />
+
+    <title>Antichi Aromi | Italienisches Restaurant Berlin Prenzlauer Berg</title>
+
+    <!-- JSON-LD Structured Data: Restaurant -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "Antichi Aromi",
+      "image": "https://antichi-aromi.de/img/antichi-aromi-interiore.jpg",
+      "@id": "https://antichi-aromi.de",
+      "url": "https://antichi-aromi.de",
+      "telephone": "+493084513261",
+      "priceRange": "$$",
+      "menu": "https://antichi-aromi.de/#menu",
+      "servesCuisine": "Italienisch, Sizilianisch",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Greifenhagener Str. 38",
+        "addressLocality": "Berlin",
+        "postalCode": "10437",
+        "addressCountry": "DE"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 52.5447,
+        "longitude": 13.4182
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          "opens": "17:00",
+          "closes": "23:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "16:00",
+          "closes": "23:00"
+        }
+      ],
+      "sameAs": [
+        "https://www.instagram.com/antichi_aromi_berlin/"
+      ]
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+    <!-- ===== EVENT POPUP: Sizilianische Tage ===== -->
+    <div id="event-popup" class="event-popup-overlay" role="dialog" aria-modal="true"
+        aria-labelledby="event-popup-title">
+        <div class="event-popup-card">
+            <button class="event-popup-close" id="event-popup-close" aria-label="Schließen">
+                &times;
+            </button>
+
+            <div class="event-popup-image">
+                <img src="img/antichi-aromi-interiore.jpg" alt="Sizilianische Tage – Antichi Aromi Berlin" />
+            </div>
+
+            <div class="event-popup-body">
+                <p class="event-popup-dates">18. – 21. Juni 2026</p>
+                <h2 id="event-popup-title" class="event-popup-title">
+                    Sizilianische Tage
+                </h2>
+                <p class="event-popup-subtitle">
+                    Erleben Sie eine Kulinarische Reise durch Sizilien
+                </p>
+
+                <blockquote class="event-popup-quote">
+                    „Platz nehmen, Augen schließen, Sizilien genießen."
+                </blockquote>
+
+                <div class="event-popup-menu">
+                    <h3>Spezialitäten der Woche</h3>
+                    <div class="event-menu-item">
+                        <span class="event-menu-name">Caponata alla siciliana</span>
+                        <span class="event-menu-desc">Auberginen Salat, süß sauer</span>
+                    </div>
+                    <div class="event-menu-item">
+                        <span class="event-menu-name">Pasta con sarde e pesto di finocchietto</span>
+                        <span class="event-menu-desc">Pasta mit Sardinen, Rosinen, Pinienkerne in Wildfenchel-Pesto</span>
+                    </div>
+                    <div class="event-menu-item">
+                        <span class="event-menu-name">Coniglio alla cacciatore</span>
+                        <span class="event-menu-desc">Kaninchenkeule mit Oliven, Pinienkerne, Kirschtomaten — Rosmarin-Kartoffeln</span>
+                    </div>
+                    <div class="event-menu-item">
+                        <span class="event-menu-name">Pasta con Pesce Spada e menta fresca</span>
+                        <span class="event-menu-desc">Pasta mit Schwertfisch, Auberginen, Cherry-Tomaten und frischer Minze</span>
+                    </div>
+                    <div class="event-menu-item">
+                        <span class="event-menu-name">Pesce Spada alla griglia con vino bianco,aromi e patate al forno</span>
+                        <span class="event-menu-desc">Gegrillter Schwertfisch mit Weißwein, Aromakräutern und Kartoffeln im Ofen</span>
+                    </div>
+                    <div class="event-menu-item">
+                        <span class="event-menu-name">Cannolo alla siciliana</span>
+                        <span class="event-menu-desc">Röhren Biskuit mit süßem Ricotta Pistazien-Creme</span>
+                    </div>
+                </div>
+
+                <div class="event-popup-actions">
+                    <a href="https://reservierung.gastroguide.de/Trattoria%20Antichi%20Aromi/279315" target="_blank"
+                        rel="noopener" class="event-popup-cta">
+                        Tisch Reservieren
+                    </a>
+                    <button class="event-popup-skip" id="event-popup-skip">
+                        Nicht jetzt
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header id="main-header">
+        <div class="container">
+            <a href="#" class="logo">Antichi Aromi</a>
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="#about">Über Uns</a></li>
+                    <li><a href="#menu">Speisekarte</a></li>
+                    <li><a href="#gallery">Galerie</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                    <li>
+                        <a href="https://reservierung.gastroguide.de/Trattoria%20Antichi%20Aromi/279315" target="_blank"
+                            class="btn-primary">Tisch Reservieren</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu">
+            <ul>
+                <li><a href="#about">Über Uns</a></li>
+                <li><a href="#menu">Speisekarte</a></li>
+                <li><a href="#gallery">Galerie</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+                <li>
+                    <a href="https://reservierung.gastroguide.de/Trattoria%20Antichi%20Aromi/279315"
+                        target="_blank">Tisch Reservieren</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Willkommen bei Ihrem Italiener im Herzen von Prenzlauer Berg</h1>
+            <p>Lassen Sie den Stress des Alltags hinter sich und gönnen Sie sich eine Auszeit inmitten der warmen Sonne
+                Siziliens. Lassen Sie sich von uns mit köstlichen, authentischen Gerichten und erlesenen Weinen
+                verwöhnen.</p>
+            <p>
+                Unsere Öffnungszeiten: Di–Sa 17–23 Uhr · So 16–23 Uhr · Mo Ruhetag
+            </p>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn-secondary">Speisekarte ansehen</a>
+                <a href="https://reservierung.gastroguide.de/Trattoria%20Antichi%20Aromi/279315" target="_blank"
+                    class="btn-primary">Jetzt Reservieren</a>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <span>↓</span>
+        </div>
+    </section>
+
+    <!-- Content Sections Hook -->
+    <main>
+        <!-- About Section -->
+        <section id="about" class="section-padding">
+            <div class="container">
+                <h2 class="section-title">Über Uns</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Authentisch & Familiär</h3>
+                        <p>
+                            Willkommen bei Ihrem Italiener im Herzen von Prenzlauer Berg.
+                            Schön, dass Sie zu uns gefunden haben – hier in unserem
+                            familiären Restaurant, wo jeder Besuch ein kleines Stück Urlaub
+                            wird.
+                        </p>
+                        <p>
+                            Wir legen großen Wert auf Tradition und Qualität. Unsere
+                            Gerichte werden nach original italienischen Rezepten zubereitet,
+                            mit frischen Zutaten und viel Liebe zum Detail. Erleben Sie die
+                            echte italienische Gastfreundschaft.
+                        </p>
+                    </div>
+                    <div class="about-image">
+                        <!-- Placeholder for restaurant interior image -->
+                        <img src="img/interiore12.jpeg" alt="Restaurant Interieur" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu Section -->
+        <section id="menu" class="section-padding">
+            <div class="container">
+                <h2 class="section-title">Unsere Karte</h2>
+
+                <!-- Category Navigation -->
+                <div class="menu-tabs-wrapper">
+                    <span class="menu-tabs-arrow menu-tabs-arrow--left hidden" id="menu-tabs-arrow-left"
+                        aria-hidden="true">&#8249;</span>
+                    <div class="menu-tabs" id="menu-category-tabs">
+                        <button class="tab-btn tab-btn--empfehlung active" data-target="cat-empfehlung">
+                            ⭐ Empfehlungskarte
+                        </button>
+                        <button class="tab-btn" data-target="cat-antipasti">
+                            Antipasti
+                        </button>
+                        <button class="tab-btn" data-target="cat-zuppa">Zuppa</button>
+                        <button class="tab-btn" data-target="cat-insalate">
+                            Insalate
+                        </button>
+                        <button class="tab-btn" data-target="cat-focaccia">
+                            Focaccia
+                        </button>
+                        <button class="tab-btn" data-target="cat-pizza">Pizza</button>
+                        <button class="tab-btn" data-target="cat-pasta">Pasta</button>
+                        <button class="tab-btn" data-target="cat-carne">Carne</button>
+                        <button class="tab-btn" data-target="cat-pesce">Pesce</button>
+                        <button class="tab-btn" data-target="cat-dolci">Dolci</button>
+                        <!-- <button class="tab-btn" data-target="cat-bambini">Bambini</button> -->
+                        <!-- <button class="tab-btn" data-target="cat-caffe">Caffé</button> -->
+                        <!-- <button class="tab-btn" data-target="cat-getraenke">Getränke</button> -->
+                        <button class="tab-btn" data-target="cat-vini">Vini</button>
+                    </div>
+                    <span class="menu-tabs-arrow" id="menu-tabs-arrow" aria-hidden="true">&#8250;</span>
+                </div>
+
+                <div class="menu-content active" id="cat-empfehlung">
+                    <div class="menu-category empfehlung-category">
+                        <h3 style="text-align:center; margin-bottom: 1.5rem; font-family: 'Playfair Display', serif; color: var(--gold);">Chef's Recommendations</h3>
+                        <div class="empfehlung-grid">
+                            <div class="empfehlung-item">
+                                <div class="item-header">
+                                    <span class="item-name">Calamaretti su rucola e pomodorini</span>
+                                    <span class="item-price">16,50</span>
+                                </div>
+                                <p class="item-desc">Pan-seared baby squid on arugula with fresh cherry tomatoes</p>
+                            </div>
+
+                            <div class="empfehlung-item">
+                                <div class="item-header">
+                                    <span class="item-name">Tagliolini con ragu di Pesce</span>
+                                    <span class="item-price">17,50</span>
+                                </div>
+                                <p class="item-desc">Fine ribbon pasta with a delicate homemade fish ragù in cherry tomato sauce</p>
+                            </div>
+
+                            <div class="empfehlung-item">
+                                <div class="item-header">
+                                    <span class="item-name">Pasta con cantarelli e pesto di rucola</span>
+                                    <span class="item-price">18,50</span>
+                                </div>
+                                <p class="item-desc">Pasta with fresh chanterelles and arugula pesto</p>
+                            </div>
+
+                            <div class="empfehlung-item">
+                                <div class="item-header">
+                                    <span class="item-name">Tagliolini al tartufo</span>
+                                    <span class="item-price">21,50</span>
+                                </div>
+                                <p class="item-desc">Fine ribbon pasta in an exquisite butter-truffle-Parmesan sauce, finished with freshly grated truffle.</p>
+                            </div>
+
+                            <div class="empfehlung-item">
+                                <div class="item-header">
+                                    <span class="item-name">Ravioloni ricotta e spinaci</span>
+                                    <span class="item-price">17,50</span>
+                                </div>
+                                <p class="item-desc">Ricotta and spinach filled parcels in a butter-sage sauce with fresh Parmesan</p>
+                            </div>
+
+                            <div class="empfehlung-item">
+                                <div class="item-header">
+                                    <span class="item-name">Pesce spada alla griglia</span>
+                                    <span class="item-price">22,50</span>
+                                </div>
+                                <p class="item-desc">Grilled swordfish steak in a lemon-olive oil marinade with fresh mint, served with rosemary potatoes</p>
+                            </div>
+
+                            <div class="empfehlung-item">
+                                <div class="item-header">
+                                    <span class="item-name">Bistecca con cantarelli</span>
+                                    <span class="item-price">27,50</span>
+                                </div>
+                                <p class="item-desc">Juicy rump steak with market-fresh sautéed chanterelles, served with delicate rosemary potatoes</p>
+                            </div>
+
+                            <div class="empfehlung-item">
+                                <div class="item-header">
+                                    <span class="item-name">Pizza Finocchiona</span>
+                                    <span class="item-price">14,50</span>
+                                </div>
+                                <p class="item-desc">With tomato sauce, mozzarella, fine fennel salami and onions</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ANTIPASTI -->
+                <div class="menu-content" id="cat-antipasti">
+                    <div class="menu-category">
+                        <h3>Antipasti – Starters</h3>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Mozzarella di bufala alla caprese</span>
+                                <span class="item-price">12,50 €</span>
+                            </div>
+                            <p class="item-desc">Buffalo mozzarella with cherry tomatoes, fresh basil and arugula</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Antipasto dell'orto</span>
+                                <span class="item-price">12,50 €</span>
+                            </div>
+                            <p class="item-desc">Mixed starter platter with assorted vegetables</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Bietola rossa con caprino</span>
+                                <span class="item-price">13,50 €</span>
+                            </div>
+                            <p class="item-desc">Beetroot carpaccio with caramelized, flambéed goat cheese, orange segments and walnuts</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Vitello tonnato</span>
+                                <span class="item-price">14,50 €</span>
+                            </div>
+                            <p class="item-desc">Thin veal slices with capers and tuna cream</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Carpaccio di manzo</span>
+                                <span class="item-price">15,00 €</span>
+                            </div>
+                            <p class="item-desc">Beef carpaccio with fresh mushrooms, Parmesan shavings, garnished with arugula</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Antipasto Italiano per due</span>
+                                <span class="item-price">29,50 €</span>
+                            </div>
+                            <p class="item-desc">A varied selection of Italian specialties: Italian cold cuts, cheese, creamy mozzarella, fresh tomatoes and marinated vegetables – perfect to start or to share.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ZUPPA -->
+                <div class="menu-content" id="cat-zuppa">
+                    <div class="menu-category">
+                        <h3>Zuppa – Soup</h3>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Crema di pomodoro</span>
+                                <span class="item-price">7,50 €</span>
+                            </div>
+                            <p class="item-desc">Creamy tomato soup</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- INSALATE -->
+                <div class="menu-content" id="cat-insalate">
+                    <div class="menu-category">
+                        <h3>Insalate – Salads</h3>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Insalata mista</span>
+                                <span class="item-price">7,50 €</span>
+                            </div>
+                            <p class="item-desc">Mixed seasonal salad</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Insalata con tonno e patate</span>
+                                <span class="item-price">12,50 €</span>
+                            </div>
+                            <p class="item-desc">Mixed seasonal salad with tuna and potatoes</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Insalata con verdure</span>
+                                <span class="item-price">14,00 €</span>
+                            </div>
+                            <p class="item-desc">Mixed seasonal salad with grilled vegetables, sun-dried tomatoes and freshly shaved Parmesan</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FOCACCIA -->
+                <div class="menu-content" id="cat-focaccia">
+                    <div class="menu-category">
+                        <h3>Focaccia – Flatbread – Bruschetta</h3>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Bruschetta classica</span>
+                                <span class="item-price">7,50 €</span>
+                            </div>
+                            <p class="item-desc">Farmhouse bread topped with tomatoes, onions and garlic</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Focaccia al rosmarino</span>
+                                <span class="item-price">7,50 €</span>
+                            </div>
+                            <p class="item-desc">Flatbread with fresh rosemary, olive oil and oregano</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Focaccia al pomodoro</span>
+                                <span class="item-price">9,00 €</span>
+                            </div>
+                            <p class="item-desc">Flatbread with fresh tomatoes, onions, garlic, fresh basil and olive oil</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PIZZA -->
+                <div class="menu-content" id="cat-pizza">
+                    <div class="menu-category">
+                        <h3>Pizze – Wood-Fired Pizza</h3>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Pizza margherita</span>
+                                <span class="item-price">10,50 €</span>
+                            </div>
+                            <p class="item-desc">Tomato sauce, mozzarella and fresh basil</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Pizza funghi</span>
+                                <span class="item-price">11,50 €</span>
+                            </div>
+                            <p class="item-desc">Tomato sauce, mozzarella and fresh mushrooms</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Pizza salami</span>
+                                <span class="item-price">11,50 €</span>
+                            </div>
+                            <p class="item-desc">Tomato sauce, mozzarella and salami</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Pizza prosciutto e funghi</span>
+                                <span class="item-price">12,50 €</span>
+                            </div>
+                            <p class="item-desc">Tomato sauce, mozzarella, cooked ham and fresh mushrooms</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Pizza diavola</span>
+                                <span class="item-price">13,50 €</span>
+                            </div>
+                            <p class="item-desc">Tomato sauce, mozzarella and spicy salami</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Pizza quattro stagioni</span>
+                                <span class="item-price">14,00 €</span>
+                            </div>
+                            <p class="item-desc">Tomato sauce, mozzarella, artichokes, olives, fresh mushrooms and salami</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Pizza sfiziosa</span>
+                                <span class="item-price">14,00 €</span>
+                            </div>
+                            <p class="item-desc">Tomato sauce, mozzarella, Gorgonzola, ham and walnuts</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Pizza alla norma</span>
+                                <span class="item-price">14,00 €</span>
+                            </div>
+                            <p class="item-desc">Tomato sauce, mozzarella, eggplant, basil and air-dried ricotta</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Pizza formaggi</span>
+                                <span class="item-price">14,00 €</span>
+                            </div>
+                            <p class="item-desc">Tomato sauce, mozzarella and a selection of cheeses</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Pizza tonno e cipolle</span>
+                                <span class="item-price">14,00 €</span>
+                            </div>
+                            <p class="item-desc">Tomato sauce, mozzarella, tuna and onions</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Pizza siciliana</span>
+                                <span class="item-price">14,50 €</span>
+                            </div>
+                            <p class="item-desc">Tomato sauce, mozzarella, Parmesan, anchovy fillets, olives, capers and basil</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Pizza calabrese</span>
+                                <span class="item-price">14,50 €</span>
+                            </div>
+                            <p class="item-desc">Tomato sauce, mozzarella, spicy salami, onions and Gorgonzola</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Pizza del buongustaio</span>
+                                <span class="item-price">14,50 €</span>
+                            </div>
+                            <p class="item-desc">Tomato sauce, mozzarella, bacon, Gorgonzola and fresh mushrooms</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Pizza rustica</span>
+                                <span class="item-price">15,00 €</span>
+                            </div>
+                            <p class="item-desc">Tomato sauce, mozzarella, arugula, Italian cured ham and Parmesan shavings</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Pizza bufalina</span>
+                                <span class="item-price">15,00 €</span>
+                            </div>
+                            <p class="item-desc">Tomato sauce, buffalo mozzarella, cherry tomatoes and fresh basil</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Pizza contadina</span>
+                                <span class="item-price">15,00 €</span>
+                            </div>
+                            <p class="item-desc">Tomato sauce, mozzarella, eggplant, artichokes, bell pepper, zucchini and fresh mushrooms</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Pizza tartufata</span>
+                                <span class="item-price">15,00 €</span>
+                            </div>
+                            <p class="item-desc">Tomato sauce, mozzarella, arugula, spicy salami, truffle oil and Parmesan shavings</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Pizza gamberi e zucchine</span>
+                                <span class="item-price">16,00 €</span>
+                            </div>
+                            <p class="item-desc">Tomato sauce, mozzarella, shrimp, cherry tomatoes, zucchini, garlic and chili</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PASTA -->
+                <div class="menu-content" id="cat-pasta">
+                    <div class="menu-category">
+                        <h3>Pasta – Noodle Dishes</h3>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Spaghetti al pomodoro e basilico</span>
+                                <span class="item-price">11,00 €</span>
+                            </div>
+                            <p class="item-desc">Spaghetti with tomato sauce and basil</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Spaghetti aglio, olio e peperoncino</span>
+                                <span class="item-price">11,50 €</span>
+                            </div>
+                            <p class="item-desc">Spaghetti with fresh garlic, extra virgin olive oil and chili – spicy</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Penne arrabiata</span>
+                                <span class="item-price">12,00 €</span>
+                            </div>
+                            <p class="item-desc">Penne in spicy tomato sauce</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Tagliatelle alla bolognese</span>
+                                <span class="item-price">12,50 €</span>
+                            </div>
+                            <p class="item-desc">Ribbon pasta with homemade Bolognese sauce</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Penne alla norma</span>
+                                <span class="item-price">14,00 €</span>
+                            </div>
+                            <p class="item-desc">Penne with eggplant in tomato sauce and grated ricotta</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Spaghetti carbonara – Originalrezept</span>
+                                <span class="item-price">14,50 €</span>
+                            </div>
+                            <p class="item-desc">Spaghetti with guanciale, egg, Pecorino Romano and black pepper</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Lasagna</span>
+                                <span class="item-price">15,00 €</span>
+                            </div>
+                            <p class="item-desc">Lasagna with tomato-meat sauce</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Pappardelle al ragù di vitello</span>
+                                <span class="item-price">16,00 €</span>
+                            </div>
+                            <p class="item-desc">Wide ribbon pasta with homemade veal ragù</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Spaghetti gamberi</span>
+                                <span class="item-price">16,50 €</span>
+                            </div>
+                            <p class="item-desc">Spaghetti with shrimp, garlic, cherry tomato sauce and chili</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Tagliatelle al salmone</span>
+                                <span class="item-price">17,00 €</span>
+                            </div>
+                            <p class="item-desc">Ribbon pasta with salmon pieces and zucchini in a creamy tomato sauce</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARNE -->
+                <div class="menu-content" id="cat-carne">
+                    <div class="menu-category">
+                        <h3>Carne – Meat</h3>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Filetti di maiale al pepe verde</span>
+                                <span class="item-price">21,00 €</span>
+                            </div>
+                            <p class="item-desc">Pork tenderloin in a delicate green peppercorn sauce, served with today's sides</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Filetti di maiale al gorgonzola</span>
+                                <span class="item-price">22,00 €</span>
+                            </div>
+                            <p class="item-desc">Pork tenderloin in a delicate Gorgonzola cream sauce, served with today's sides</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Saltimbocca di maiale</span>
+                                <span class="item-price">22,50 €</span>
+                            </div>
+                            <p class="item-desc">Pork tenderloin with Italian cured ham and sage in white wine sauce, served with today's sides</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Tagliata di manzo</span>
+                                <span class="item-price">27,00 €</span>
+                            </div>
+                            <p class="item-desc">Grilled rump steak, sliced over a bed of arugula with grated Parmesan and cherry tomatoes, served with today's sides</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PESCE -->
+                <div class="menu-content" id="cat-pesce">
+                    <div class="menu-category">
+                        <h3>Pesce – Fish</h3>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Filetti di orate all'acqua pazza</span>
+                                <span class="item-price">24,50 €</span>
+                            </div>
+                            <p class="item-desc">Sea bream fillet with fresh cherry tomatoes, capers, olives and Mediterranean herbs, served with today's sides</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Gamberi alla griglia</span>
+                                <span class="item-price">25,00 €</span>
+                            </div>
+                            <p class="item-desc">Grilled shrimp with fresh garlic, chili and Mediterranean herbs, served with today's sides</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Salmone alla siciliana</span>
+                                <span class="item-price">26,00 €</span>
+                            </div>
+                            <p class="item-desc">Fresh salmon fillet with braised red onions, raisins and pine nuts, served with today's sides</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Pesce misto agli aromi</span>
+                                <span class="item-price">27,50 €</span>
+                            </div>
+                            <p class="item-desc">Mixed grilled fish platter with fresh Mediterranean herbs, served with today's sides</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DOLCI -->
+                <div class="menu-content" id="cat-dolci">
+                    <div class="menu-category">
+                        <h3>Dolci – Desserts</h3>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Panna cotta</span>
+                                <span class="item-price">7,00 €</span>
+                            </div>
+                            <p class="item-desc">Cream pudding with forest berries</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Torta della nonna</span>
+                                <span class="item-price">7,00 €</span>
+                            </div>
+                            <p class="item-desc">Cake with lemon cream, almond flakes and pine nuts</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Tiramisú</span>
+                                <span class="item-price">7,50 €</span>
+                            </div>
+                            <p class="item-desc">Espresso-soaked ladyfingers layered with mascarpone and Amaretto liqueur</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Semifreddo alle mandorle</span>
+                                <span class="item-price">8,00 €</span>
+                            </div>
+                            <p class="item-desc">Semi-frozen almond dessert</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Crème brûlée</span>
+                                <span class="item-price">8,00 €</span>
+                            </div>
+                            <p class="item-desc"></p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Gelato misto</span>
+                                <span class="item-price">5,50 €</span>
+                            </div>
+                            <p class="item-desc">Three scoops of mixed ice cream</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Gelato misto con panna</span>
+                                <span class="item-price">6,00 €</span>
+                            </div>
+                            <p class="item-desc">Three scoops of ice cream with whipped cream</p>
+                        </div>
+                        <!--<div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Variazione di formaggio</span>
+                                <span class="item-price">13,00 €</span>
+                            </div>
+                            <p class="item-desc">Käseteller mit Parmesan und Pecorino</p>
+                        </div>-->
+                    </div>
+                </div>
+
+                <!-- BAMBINI -->
+                <div class="menu-content" id="cat-bambini">
+                    <div class="menu-category">
+                        <h3>Per i bambini – For Kids</h3>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Pizza margherita bambino</span>
+                                <span class="item-price">8,00 €</span>
+                            </div>
+                            <p class="item-desc">Kids' pizza with tomato sauce, mozzarella and basil</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Pasta bambino al burro o al pomodoro</span>
+                                <span class="item-price">8,00 €</span>
+                            </div>
+                            <p class="item-desc">Kids' pasta with butter or tomato sauce</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CAFFÉ -->
+                <div class="menu-content" id="cat-caffe">
+                    <div class="menu-category">
+                        <h3>Caffé e più – Coffee and More</h3>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Espresso</span>
+                                <span class="item-price">2,50 €</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Espresso macchiato</span>
+                                <span class="item-price">3,00 €</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Espresso doppio</span>
+                                <span class="item-price">5,00 €</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Espresso entkoffeiniert</span>
+                                <span class="item-price">3,00 €</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Cappuccino</span>
+                                <span class="item-price">3,50 €</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Cappuccino entkoffeiniert</span>
+                                <span class="item-price">4,00 €</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Café crema</span>
+                                <span class="item-price">3,50 €</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Café crema entkoffeiniert</span>
+                                <span class="item-price">4,00 €</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Latte macchiato</span>
+                                <span class="item-price">4,50 €</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Latte macchiato entkoffeiniert</span>
+                                <span class="item-price">5,00 €</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- GETRÄNKE -->
+                <div class="menu-content" id="cat-getraenke">
+                    <div class="menu-category">
+                        <h3>Analcolici – Soft Drinks</h3>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">San Pellegrino <em>Frizzante</em></span>
+                                <span class="item-price">0,25l 3,70 € / Bottle 0,75l 6,70 €</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Acqua Panna <em>Naturale</em></span>
+                                <span class="item-price">0,25l 3,70 € / Bottle 0,75l 6,70 €</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Coca Cola Zero, Fanta, Sprite</span>
+                                <span class="item-price">0,2l 3,20 € / 0,4l 4,60 €</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Spezi</span>
+                                <span class="item-price">0,2l 3,20 € / 0,4l 4,60 €</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Tonic Water, Ginger Ale, Bitter Lemon</span>
+                                <span class="item-price">Bottle 0,2l 4,20 €</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Apple, Blackcurrant, Rhubarb, Cherry Spritzer</span>
+                                <span class="item-price">0,2l 3,20 € / 0,4l 4,60 €</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Blackcurrant, Rhubarb, Cherry, Banana Nectar</span>
+                                <span class="item-price">0,2l 3,20 € / 0,4l 4,60 €</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Orange Juice</span>
+                                <span class="item-price">0,2l 3,20 € / 0,4l 4,60 €</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Apple Juice</span>
+                                <span class="item-price">0,2l 3,20 € / 0,4l 4,60 €</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Cherry-Banana Mix</span>
+                                <span class="item-price">0,2l 3,20 € / 0,4l 4,60 €</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-category">
+                        <h3>Birre – Beer</h3>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Warsteiner vom Fass</span>
+                                <span class="item-price">0,3l 4,20 € / 0,5l 5,50 €</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">König Ludwig vom Fass</span>
+                                <span class="item-price">0,3l 4,20 € / 0,5l 5,50 €</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Radler</span>
+                                <span class="item-price">0,3l 4,20 € / 0,5l 5,50 €</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">König Ludwig Weissbier Hell</span>
+                                <span class="item-price">Bottle 0,50l 5,50 €</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">König Ludwig Weissbier Kristall</span>
+                                <span class="item-price">Bottle 0,50l 5,50 €</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">König Ludwig Weissbier Dunkel</span>
+                                <span class="item-price">Bottle 0,50l 5,50 €</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">König Ludwig Weissbier Alkoholfrei</span>
+                                <span class="item-price">Bottle 0,50l 5,50 €</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Peroni Nastro Azzurro</span>
+                                <span class="item-price">Bottle 0,33l 4,20 €</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Warsteiner alkoholfrei</span>
+                                <span class="item-price">Bottle 0,33l 4,20 €</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-category">
+                        <h3>Aperitivi – Aperitifs</h3>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Hugo</span>
+                                <span class="item-price">8,50 €</span>
+                            </div>
+                            <p class="item-desc">2 cl elderflower syrup, 0.1 l Prosecco, fresh mint and soda</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Aperol spritz</span>
+                                <span class="item-price">8,50 €</span>
+                            </div>
+                            <p class="item-desc">2 cl Aperol, 0.1 l Prosecco and soda</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Lillet blanc</span>
+                                <span class="item-price">9,00 €</span>
+                            </div>
+                            <p class="item-desc">2 cl Lillet Blanc, 0.1 l tonic water and forest berries</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Tocco rosso</span>
+                                <span class="item-price">9,00 €</span>
+                            </div>
+                            <p class="item-desc">2 cl Campari, 2 cl elderflower syrup, 6 cl Prosecco, soda and fresh mint</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Campari Negroni</span>
+                                <span class="item-price">9,50 €</span>
+                            </div>
+                            <p class="item-desc">30 ml Campari, 30 ml gin, 30 ml vermouth</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Martini Dry / Bianco / Rosso</span>
+                                <span class="item-price">6,50 €</span>
+                            </div>
+                            <p class="item-desc">100 ml Martini</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Campari Orange / Campari Soda</span>
+                                <span class="item-price">7,00 €</span>
+                            </div>
+                            <p class="item-desc">4 cl Campari, 180 ml orange juice / 4 cl Campari, 180 ml soda</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Frangelico auf Eis</span>
+                                <span class="item-price">6,00 €</span>
+                            </div>
+                            <p class="item-desc">50 ml original Italian hazelnut liqueur</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Prosecco</span>
+                                <span class="item-price">0,1l 6,00 €</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Prosecco Flasche</span>
+                                <span class="item-price">Bottle 0,75l 36,00 €</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Champagner Moet Chandon Fl.</span>
+                                <span class="item-price">0,75l 95,00 €</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-category">
+                        <h3>Grappa</h3>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Grappa della casa 38% <em>Veneta</em></span>
+                                <span class="item-price">2cl 5,00 €</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Grappa di Prosecco 42%</span>
+                                <span class="item-price">2cl 6,50 €</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Grappa riserva</span>
+                                <span class="item-price">2cl 7,50 €</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Grappa amarone barrique 42%</span>
+                                <span class="item-price">2cl 8,50 €</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Grappa trentina</span>
+                                <span class="item-price">2cl 8,50 €</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Grappa Nonino Chardonnay</span>
+                                <span class="item-price">2cl 8,50 €</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Grappa diciotto lune</span>
+                                <span class="item-price">2cl 11,50 €</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-category">
+                        <h3>Alcolici – Spirits</h3>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Amaretto</span>
+                                <span class="item-price">2cl 4,50 €</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Sambuca</span>
+                                <span class="item-price">2cl 4,50 €</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Limoncello</span>
+                                <span class="item-price">2cl 4,50 €</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Cynar</span>
+                                <span class="item-price">2cl 5,00 €</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Montenegro</span>
+                                <span class="item-price">2cl 5,00 €</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Ramazzotti</span>
+                                <span class="item-price">2cl 5,50 €</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Amaro Averna</span>
+                                <span class="item-price">2cl 5,50 €</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Fernet branca</span>
+                                <span class="item-price">2cl 6,00 €</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Vecchia romagna <em>Brandy</em></span>
+                                <span class="item-price">2cl 6,50 €</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Glenmorangie <em>Whiskey Bourbon</em></span>
+                                <span class="item-price">2cl 7,00 €</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Woodford reserve <em>Whiskey Bourbon</em></span>
+                                <span class="item-price">2cl 7,00 €</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Hennessy <em>Fine de cognac</em></span>
+                                <span class="item-price">2cl 7,00 €</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Ron Zacapa <em>Rum</em></span>
+                                <span class="item-price">2cl 10,50 €</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Dessert wine</span>
+                                <span class="item-price">5cl 5,50 €</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- VINI -->
+                <div class="menu-content" id="cat-vini">
+                    <div class="menu-category">
+                        <h3>Vini aperti – Wines by the Glass</h3>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Red wine – Montepulciano d'Abruzzo D.O.C</span>
+                                <span class="item-price">0,20l 6,50 € / 0,5l 15,50 €</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">White wine – Pinot Grigio I.G.T</span>
+                                <span class="item-price">0,20l 6,50 € / 0,5l 15,50 €</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Rosé wine – Solemar Rosé I.G.T</span>
+                                <span class="item-price">0,20l 6,50 € / 0,5l 15,50 €</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">White / red wine spritzer</span>
+                                <span class="item-price">0,20l 6,50 € / 0,5l 15,50 €</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-category">
+                        <h3>Vini Rossi – Red Wine (Bottle 0.75l)</h3>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Nero d'Avola <em>– Sicily</em></span>
+                                <span class="item-price">27,50 €</span>
+                            </div>
+                            <p class="item-desc">100% Nero d'Avola. Dry and fruity with aromas of dark cherries and spice</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Primitivo di Manduria <em>– Apulia</em></span>
+                                <span class="item-price">30,50 €</span>
+                            </div>
+                            <p class="item-desc">100% Primitivo. Intense bouquet of berries and exotic spice</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Cannonau <em>– Sardinia</em></span>
+                                <span class="item-price">32,50 €</span>
+                            </div>
+                            <p class="item-desc">Cannonau, Carignano, Bovale Sardo. Intense bouquet of berries and exotic spice</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Barbera d'Asti Superiore <em>– Piedmont</em></span>
+                                <span class="item-price">33,50 €</span>
+                            </div>
+                            <p class="item-desc">100% Barbera. Dry, soft with notes of forest berries and vanilla</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Chianti Riserva DOCG <em>– Tuscany</em></span>
+                                <span class="item-price">35,50 €</span>
+                            </div>
+                            <p class="item-desc">Intense bouquet of berries and exotic spice</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Le Volte dell' Ornellaia <em>– Tuscany</em></span>
+                                <span class="item-price">55,50 €</span>
+                            </div>
+                            <p class="item-desc">Dry, soft, with notes of forest berries and vanilla</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-category">
+                        <h3>Vini Rosati – Rosé Wine (Bottle 0.75l)</h3>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Regaleali Le Rose <em>– Sicily</em></span>
+                                <span class="item-price">29,50 €</span>
+                            </div>
+                            <p class="item-desc">100% Nerello Mascalese. Aromatic bouquet of cherries, strawberries, blackberries and a delicate hint of rose petals</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-category">
+                        <h3>Vini Bianchi – White Wine (Bottle 0.75l)</h3>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Grillo <em>– Sicily</em></span>
+                                <span class="item-price">27,50 €</span>
+                            </div>
+                            <p class="item-desc">100% Grillo. Very fruity and fresh with citrus notes</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Brezza <em>– Umbria</em></span>
+                                <span class="item-price">27,50 €</span>
+                            </div>
+                            <p class="item-desc">Grechetto, Chardonnay, Pinot Grigio. Light, sparkling with a fragrant exotic bouquet</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Regaleali <em>– Sicily</em></span>
+                                <span class="item-price">29,50 €</span>
+                            </div>
+                            <p class="item-desc">Inzolia, Grecanico, Catarratto. Light, soft and fresh with aromas of ripe citrus fruit</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Gavi <em>– Piedmont</em></span>
+                                <span class="item-price">28,50 €</span>
+                            </div>
+                            <p class="item-desc">100% Cortese. Citrus, green apples, delicately aromatic, vibrantly fresh</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Vernaccia di S.Gimignano <em>– Tuscany</em></span>
+                                <span class="item-price">33,00 €</span>
+                            </div>
+                            <p class="item-desc">100% Canaiolo. Varied aromas, fruity, appealing acidity, a refreshing finish</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Pinot Grigio <em>– Friuli</em></span>
+                                <span class="item-price">32,50 €</span>
+                            </div>
+                            <p class="item-desc">100% Pinot Grigio. Fruity, fresh notes of peach, green apple, meadow flowers and herbs</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <span class="item-name">Lugana Cà Dei Frati <em>– Lombardy</em></span>
+                                <span class="item-price">36,50 €</span>
+                            </div>
+                            <p class="item-desc">100% Trebbiano di Lugana. Mild, softly floral aromas with ripe notes of peach and apple</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Gallery Section -->
+        <!-- SEÇÃO DA GALERIA: Aqui ficam as fotos. Para adicionar mais, copie a div 'gallery-item' -->
+        <section id="gallery" class="section-padding">
+            <div class="container">
+                <h2 class="section-title">Galerie</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="img/imagine1.jpeg" alt="Pasta" />
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/pizza.jpg.jpeg" alt="Pizza" />
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/carbonara.jpg.jpeg" alt="Vitello" />
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/vino.jpg.jpeg" alt="Vino" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section-padding">
+            <div class="container">
+                <h2 class="section-title">Kontakt & Reservierung</h2>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <h4>Adresse</h4>
+                            <p>Greifenhagener Str. 38<br />10437 Berlin</p>
+                        </div>
+                        <div class="info-item">
+                            <h4>Öffnungszeiten</h4>
+                            <p>
+                                Di - Sa: 17:00 - 23:00 Uhr<br />So: 16:00 - 23:00 Uhr<br />Mo:
+                                Ruhetag
+                            </p>
+                        </div>
+                        <div class="info-item">
+                            <h4>Kontakt</h4>
+                            <p>Tel: +49 30 84513261<br />Email: info@antichi-aromi.de</p>
+                        </div>
+                        <div class="contact-actions">
+                            <a href="https://reservierung.gastroguide.de/Trattoria%20Antichi%20Aromi/279315"
+                                target="_blank" class="btn-primary">Tisch Reservieren</a>
+                            <a href="https://www.instagram.com/antichi_aromi_berlin/" target="_blank" rel="noopener"
+                                class="btn-instagram" aria-label="Instagram">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    width="18" height="18">
+                                    <path
+                                        d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.334 3.608 1.31.975.975 1.247 2.242 1.31 3.608.058 1.265.07 1.645.07 4.849s-.012 3.584-.07 4.85c-.062 1.366-.334 2.633-1.31 3.608-.975.975-2.242 1.247-3.608 1.31-1.265.058-1.645.07-4.849.07s-3.584-.012-4.85-.07c-1.366-.062-2.633-.334-3.608-1.31-.975-.975-1.247-2.242-1.31-3.608C2.175 15.584 2.163 15.204 2.163 12s.012-3.584.07-4.85c.062-1.366.334-2.633 1.31-3.608.975-.975 2.242-1.247 3.608-1.31C8.416 2.175 8.796 2.163 12 2.163zm0-2.163C8.741 0 8.332.014 7.052.072 5.197.157 3.355.73 2.014 2.072.673 3.413.1 5.255.014 7.11.014 8.39 0 8.799 0 12s.014 3.61.072 4.89c.086 1.855.659 3.697 2 5.038 1.341 1.341 3.183 1.914 5.038 2 1.28.058 1.689.072 4.89.072s3.61-.014 4.89-.072c1.855-.086 3.697-.659 5.038-2 1.341-1.341 1.914-3.183 2-5.038C23.986 15.61 24 15.201 24 12s-.014-3.61-.072-4.89c-.086-1.855-.659-3.697-2-5.038C20.587.73 18.745.157 16.89.072 15.61.014 15.201 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zm0 10.162a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z" />
+                                </svg>
+                                Folgen Sie uns
+                            </a>
+                        </div>
+                    </div>
+                    <div class="map-container">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2427.239328574163!2d13.418485315807963!3d52.5413159798177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84e037b0c9ad3%3A0xe549557a2c0f209e!2sGreifenhagener%20Str.%2038%2C%2010437%20Berlin%2C%20Germany!5e0!3m2!1sen!2sus!4v1633000000000!5m2!1sen!2sus"
+                            width="100%" height="400" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <p>&copy; 2026 Antichi Aromi. Alle Rechte vorbehalten.</p>
+                <a href="https://www.instagram.com/antichi_aromi_berlin/" target="_blank" rel="noopener"
+                    class="footer-instagram" aria-label="Instagram">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
+                        <path
+                            d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.334 3.608 1.31.975.975 1.247 2.242 1.31 3.608.058 1.265.07 1.645.07 4.849s-.012 3.584-.07 4.85c-.062 1.366-.334 2.633-1.31 3.608-.975.975-2.242 1.247-3.608 1.31-1.265.058-1.645.07-4.849.07s-3.584-.012-4.85-.07c-1.366-.062-2.633-.334-3.608-1.31-.975-.975-1.247-2.242-1.31-3.608C2.175 15.584 2.163 15.204 2.163 12s.012-3.584.07-4.85c.062-1.366.334-2.633 1.31-3.608.975-.975 2.242-1.247 3.608-1.31C8.416 2.175 8.796 2.163 12 2.163zm0-2.163C8.741 0 8.332.014 7.052.072 5.197.157 3.355.73 2.014 2.072.673 3.413.1 5.255.014 7.11.014 8.39 0 8.799 0 12s.014 3.61.072 4.89c.086 1.855.659 3.697 2 5.038 1.341 1.341 3.183 1.914 5.038 2 1.28.058 1.689.072 4.89.072s3.61-.014 4.89-.072c1.855-.086 3.697-.659 5.038-2 1.341-1.341 1.914-3.183 2-5.038C23.986 15.61 24 15.201 24 12s-.014-3.61-.072-4.89c-.086-1.855-.659-3.697-2-5.038C20.587.73 18.745.157 16.89.072 15.61.014 15.201 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zm0 10.162a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z" />
+                    </svg>
+                    @antichi_aromi_berlin
+                </a>
+            </div>
+            <div class="footer-middle">
+                <button class="footer-link-btn" id="btn-impressum">Impressum</button>
+                <span class="footer-divider">|</span>
+                <button class="footer-link-btn" id="btn-datenschutz">Datenschutz</button>
+            </div>
+            <p class="dev-credit">Website by <a href="https://builtbymateus.com/">Mateus Marques</a></p>
+        </div>
+    </footer>
+
+    <!-- Impressum Modal -->
+    <div class="legal-modal" id="modal-impressum" role="dialog" aria-modal="true" aria-labelledby="impressum-title">
+        <div class="legal-modal-box">
+            <button class="modal-close" aria-label="Schließen">&times;</button>
+            <h2 id="impressum-title">Impressum</h2>
+            <p><strong>Angaben gemäß § 5 TMG:</strong></p>
+            <p>
+                Rosario Bonsignore<br />Antichi Aromi (Einzelunternehmen)<br />Greifenhagener
+                Str. 38<br />10437 Berlin
+            </p>
+            <p>
+                <strong>Kontakt:</strong><br />
+                Telefon: +49 30 84513261<br />
+                E-Mail:
+                <a href="mailto:info@antichi-aromi.de">info@antichi-aromi.de</a>
+            </p>
+            <p><strong>USt-ID:</strong><br />DE 324563811</p>
+            <p>
+                <strong>Aufsichtsbehörde:</strong><br />
+                Ordnungsamt Pankow – Gewerbeangelegenheiten<br />Fröbelstraße Haus 6
+            </p>
+        </div>
+    </div>
+
+    <!-- Datenschutz Modal -->
+    <div class="legal-modal" id="modal-datenschutz" role="dialog" aria-modal="true" aria-labelledby="datenschutz-title">
+        <div class="legal-modal-box">
+            <button class="modal-close" aria-label="Schließen">&times;</button>
+            <h2 id="datenschutz-title">Datenschutzerklärung</h2>
+            <p>
+                Diese Datenschutzerklärung klärt Sie über die Art, den Umfang und
+                Zweck der Verarbeitung von personenbezogenen Daten (nachfolgend kurz
+                „Daten") innerhalb unseres Onlineangebotes auf. Im Hinblick auf die
+                verwendeten Begrifflichkeiten verweisen wir auf die Definitionen im
+                Art. 4 der Datenschutzgrundverordnung (DSGVO).
+            </p>
+
+            <h3>Verantwortlicher</h3>
+            <p>
+                Rosario Bonsignore / Antichi Aromi<br />Greifenhagener Str. 38<br />10437
+                Berlin<br />
+                <a href="mailto:info@antichi-aromi.de">info@antichi-aromi.de</a><br />
+                Inh. Rosario Bonsignore / Einzelunternehmen
+            </p>
+
+            <h3>Arten der verarbeiteten Daten</h3>
+            <ul>
+                <li>Bestandsdaten (z.B. Namen, Adressen)</li>
+                <li>Kontaktdaten (z.B. E-Mail, Telefonnummern)</li>
+                <li>Inhaltsdaten (z.B. Texteingaben, Fotografien, Videos)</li>
+                <li>Nutzungsdaten (z.B. besuchte Webseiten, Zugriffszeiten)</li>
+                <li>
+                    Meta-/Kommunikationsdaten (z.B. Geräte-Informationen, IP-Adressen)
+                </li>
+            </ul>
+
+            <h3>Widerruf Ihrer Einwilligung zur Datenverarbeitung</h3>
+            <p>
+                Nur mit Ihrer ausdrücklichen Einwilligung sind einige Vorgänge der
+                Datenverarbeitung möglich. Ein Widerruf Ihrer bereits erteilten
+                Einwilligung ist jederzeit möglich. Für den Widerruf genügt eine
+                formlose Mitteilung per E-Mail. Die Rechtmäßigkeit der bis zum
+                Widerruf erfolgten Datenverarbeitung bleibt vom Widerruf unberührt.
+            </p>
+
+            <h3>Recht auf Beschwerde bei der zuständigen Aufsichtsbehörde</h3>
+            <p>
+                Als Betroffener steht Ihnen im Falle eines datenschutzrechtlichen
+                Verstoßes ein Beschwerderecht bei der zuständigen Aufsichtsbehörde zu.
+                Zuständige Aufsichtsbehörde ist der Landesdatenschutzbeauftragte des
+                Bundeslandes Berlin. Weitere Informationen:
+                <a href="https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html"
+                    target="_blank" rel="noopener">bfdi.bund.de</a>
+            </p>
+
+            <h3>Recht auf Datenübertragbarkeit</h3>
+            <p>
+                Ihnen steht das Recht zu, Daten, die wir auf Grundlage Ihrer
+                Einwilligung oder in Erfüllung eines Vertrags automatisiert
+                verarbeiten, an sich oder an Dritte aushändigen zu lassen.
+            </p>
+
+            <h3>Recht auf Auskunft, Berichtigung, Sperrung, Löschung</h3>
+            <p>
+                Sie haben jederzeit im Rahmen der geltenden gesetzlichen Bestimmungen
+                das Recht auf unentgeltliche Auskunft über Ihre gespeicherten
+                personenbezogenen Daten sowie ein Recht auf Berichtigung, Sperrung
+                oder Löschung dieser Daten.
+            </p>
+
+            <h3>SSL- bzw. TLS-Verschlüsselung</h3>
+            <p>
+                Aus Sicherheitsgründen nutzt unsere Website eine SSL- bzw.
+                TLS-Verschlüsselung. Sie erkennen eine verschlüsselte Verbindung an
+                der „https://" Adresszeile Ihres Browsers.
+            </p>
+
+            <h3>Server-Log-Dateien</h3>
+            <p>
+                Der Provider der Website erhebt automatisch Informationen in
+                Server-Log-Dateien, die Ihr Browser übermittelt: Browsertyp und
+                -version, verwendetes Betriebssystem, Referrer URL, Hostname des
+                zugreifenden Rechners, Uhrzeit der Serveranfrage, IP-Adresse. Eine
+                Zusammenführung dieser Daten mit anderen Datenquellen findet nicht
+                statt.
+            </p>
+
+            <h3>Reservierungsformular</h3>
+            <p>
+                Per Reservierungsformular übermittelte Daten werden einschließlich
+                Ihrer Kontaktdaten gespeichert, um Ihre Anfrage bearbeiten zu können.
+                Eine Weitergabe dieser Daten findet ohne Ihre Einwilligung nicht
+                statt. Die Verarbeitung erfolgt auf Grundlage Art. 6 Abs. 1 lit. a
+                DSGVO.
+            </p>
+
+            <h3>Google Fonts</h3>
+            <p>
+                Wir binden Schriftarten von Google LLC, 1600 Amphitheatre Parkway,
+                Mountain View, CA 94043, USA ein. Datenschutzerklärung:
+                <a href="https://www.google.com/policies/privacy/" target="_blank"
+                    rel="noopener">google.com/policies/privacy</a>
+            </p>
+
+            <h3>Google Maps</h3>
+            <p>
+                Wir binden Google Maps des Anbieters Google LLC ein. Zu den
+                verarbeiteten Daten können insbesondere IP-Adressen und Standortdaten
+                der Nutzer gehören. Datenschutzerklärung:
+                <a href="https://www.google.com/policies/privacy/" target="_blank"
+                    rel="noopener">google.com/policies/privacy</a>
+            </p>
+
+            <p class="datenschutz-source">
+                <small>Quelle: Datenschutz-Konfigurator von
+                    mein-datenschutzbeauftragter.de</small>
+            </p>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
