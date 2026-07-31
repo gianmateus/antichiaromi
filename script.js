@@ -73,8 +73,10 @@
       const source = new DOMParser().parseFromString(await response.text(), 'text/html');
       const menu = document.querySelector('.menu-list');
       const tabLabels = new Map([...source.querySelectorAll('.tab-btn')].map(tab => [tab.dataset.target, tab.textContent.replace('⭐', '').trim()]));
+      const excludedCategories = ['cat-empfehlung', 'cat-bambini', 'cat-caffe', 'cat-getraenke', 'cat-vini'];
       const fragments = [];
       source.querySelectorAll('#menu .menu-content').forEach(content => {
+        if (excludedCategories.includes(content.id)) return;
         const groups = [...content.querySelectorAll(':scope > .menu-category')];
         groups.forEach((group, index) => {
           const entries = [...group.querySelectorAll('.menu-item, .empfehlung-item')];

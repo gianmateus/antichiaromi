@@ -24,8 +24,8 @@ window.I18N = {
     'dishes.neroAlt': 'Wein im Antichi Aromi',
     'menu.heading': 'Die Speisekarte.',
     'menu.note': 'Alle Preise in Euro. Fragen Sie uns gern nach Allergenen und vegetarischen Optionen.',
-    'weekly.eyebrow': 'Diese Woche',
-    'weekly.heading': 'Empfehlungen<br>aus der Küche.',
+    'weekly.eyebrow': 'Empfehlungskarte',
+    'weekly.heading': 'Unsere Empfehlungen<br>aus der Küche.',
     'story.alt': 'Das Interieur des Antichi Aromi',
     'story.eyebrow': 'Authentisch & familiär',
     'story.quote': '„Hier wird jeder Besuch ein kleines Stück Urlaub.“',
@@ -90,8 +90,8 @@ window.I18N = {
     'dishes.neroAlt': 'Wine at Antichi Aromi',
     'menu.heading': 'The Menu.',
     'menu.note': 'All prices in euros. Feel free to ask us about allergens and vegetarian options.',
-    'weekly.eyebrow': 'This Week',
-    'weekly.heading': 'Recommendations<br>from the kitchen.',
+    'weekly.eyebrow': 'Recommendations',
+    'weekly.heading': 'Our Recommendations<br>from the kitchen.',
     'story.alt': 'The interior of Antichi Aromi',
     'story.eyebrow': 'Authentic & family-run',
     'story.quote': '“Every visit here becomes a little piece of vacation.”',
@@ -136,16 +136,24 @@ window.I18N = {
 // Replace both lists each week with the same items in each language. An empty array hides the section.
 window.WEEKLY_MENU = {
   de: [
-    { name: 'Caponata', description: 'Sizilianisches süß-saures Gemüsegericht aus Auberginen.', price: '13,50 €' },
-    { name: 'Arancini', description: 'Sizilianische Reisbällchen mit Rindfleisch und Erbsen.', price: '9,00 €' },
-    { name: 'Tagliolini al tartufo', description: 'Hausgemachte feine Bandnudeln mit schwarzem Trüffel.', price: '21,50 €' },
-    { name: 'Pizza Milano', description: 'Tomatensauce, Mozzarella, Fenchelsalami, Peperoni und Zwiebeln.', price: '15,50 €' }
+    { name: 'Calamaretti su rucola e pomodorini', description: 'Gebratene Calamaretti auf Rucola und frischen Cherrytomaten', price: '16,50 €' },
+    { name: 'Tagliolini con ragu di Pesce', description: 'Feine Bandnudeln mit Hausgemachtem Edel-Fisch-Ragout in Cherrytomatensauce', price: '17,50 €' },
+    { name: 'Pasta con cantarelli e pesto di rucola', description: 'Pasta mit frischen Pfifferlingen und Rucola-Pesto', price: '18,50 €' },
+    { name: 'Tagliolini al tartufo', description: 'Feine Bandnudeln in einer edlen Butter-Trüffel-Parmesan-Sauce, vollendet mit frisch geriebenem Trüffel.', price: '21,50 €' },
+    { name: 'Ravioloni ricotta e spinaci', description: 'Teigtaschen mit Ricotta und Spinat gefüllt, in Butter Salbei Sauce und frischen Parmesakäse', price: '17,50 €' },
+    { name: 'Pesce spada alla griglia', description: 'Schwertfischsteak vom Grill, in einer Zitronen-Olivenöl-Marinade und frischer Minze, dazu servieren wir Rosmarinkartoffeln', price: '22,50 €' },
+    { name: 'Bistecca con cantarelli', description: 'Saftiges Rumpsteak an marktfrischen, sautierten Pfifferlingen serviert mit feinen Rosmarinkartoffeln', price: '27,50 €' },
+    { name: 'Pizza Finocchiona', description: 'Mit Tomatensauce, Mozzarella, feiner Fenchelsalami und Zwiebeln', price: '14,50 €' }
   ],
   en: [
-    { name: 'Caponata', description: 'Sicilian sweet-and-sour eggplant dish.', price: '13,50 €' },
-    { name: 'Arancini', description: 'Sicilian rice balls with beef and peas.', price: '9,00 €' },
-    { name: 'Tagliolini al tartufo', description: 'Homemade fine ribbon pasta with black truffle.', price: '21,50 €' },
-    { name: 'Pizza Milano', description: 'Tomato sauce, mozzarella, fennel salami, peperoni and onions.', price: '15,50 €' }
+    { name: 'Calamaretti su rucola e pomodorini', description: 'Pan-seared baby squid on arugula with fresh cherry tomatoes', price: '16,50 €' },
+    { name: 'Tagliolini con ragu di Pesce', description: 'Fine ribbon pasta with a delicate homemade fish ragù in cherry tomato sauce', price: '17,50 €' },
+    { name: 'Pasta con cantarelli e pesto di rucola', description: 'Pasta with fresh chanterelles and arugula pesto', price: '18,50 €' },
+    { name: 'Tagliolini al tartufo', description: 'Fine ribbon pasta in an exquisite butter-truffle-Parmesan sauce, finished with freshly grated truffle.', price: '21,50 €' },
+    { name: 'Ravioloni ricotta e spinaci', description: 'Ricotta and spinach filled parcels in a butter-sage sauce with fresh Parmesan', price: '17,50 €' },
+    { name: 'Pesce spada alla griglia', description: 'Grilled swordfish steak in a lemon-olive oil marinade with fresh mint, served with rosemary potatoes', price: '22,50 €' },
+    { name: 'Bistecca con cantarelli', description: 'Juicy rump steak with market-fresh sautéed chanterelles, served with delicate rosemary potatoes', price: '27,50 €' },
+    { name: 'Pizza Finocchiona', description: 'With tomato sauce, mozzarella, fine fennel salami and onions', price: '14,50 €' }
   ]
 };
 
