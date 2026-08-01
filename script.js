@@ -167,7 +167,7 @@
     };
     video.addEventListener('seeked', () => { seeking = false; seek(); });
     const timeline = gsap.timeline({
-      scrollTrigger: { trigger: '#stage', pin: true, anticipatePin: 1, scrub: .6, start: 'top top', end: '+=460%', onUpdate(self) { desiredTime = Math.min(self.progress / .88, 1) * video.duration; seek(); } }
+      scrollTrigger: { trigger: '#stage', pin: true, anticipatePin: 1, scrub: .3, start: 'top top', end: '+=260%', onUpdate(self) { desiredTime = Math.min(self.progress / .88, 1) * video.duration; seek(); } }
     });
     timeline.to('.hero-copy', { autoAlpha: 0, y: -35, duration: .13 }, 0)
       .to('.scene-one', { autoAlpha: 1, duration: .06 }, .16).to('.scene-one', { autoAlpha: 0, duration: .06 }, .29)
