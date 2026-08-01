@@ -1,7 +1,6 @@
 (() => {
   const LANG_KEY = 'antichi-aromi-lang';
   const getLang = () => (localStorage.getItem(LANG_KEY) === 'en' ? 'en' : 'de');
-  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const video = document.querySelector('#hero-video');
   const loader = document.querySelector('.loader');
   const loaderBar = loader.querySelector('i');
@@ -123,17 +122,6 @@
     if (!loader) return;
     gsap.to(loader, { autoAlpha: 0, duration: .45, onComplete: () => loader.remove() });
   };
-
-  if (reduceMotion) {
-    video.src = source;
-    video.load();
-    loader.remove();
-    document.querySelectorAll('[data-modal]').forEach(button => button.addEventListener('click', () => { const modal = document.getElementById(button.dataset.modal); modal.classList.add('open'); modal.setAttribute('aria-hidden', 'false'); modal.querySelector('.modal-close').focus(); }));
-    document.querySelectorAll('.modal').forEach(modal => { const close = () => { modal.classList.remove('open'); modal.setAttribute('aria-hidden', 'true'); }; modal.querySelector('.modal-close').addEventListener('click', close); modal.addEventListener('click', event => { if (event.target === modal) close(); }); });
-    document.addEventListener('keydown', event => { if (event.key === 'Escape') document.querySelectorAll('.modal.open').forEach(modal => modal.querySelector('.modal-close').click()); });
-    if (shouldShowSommerpause()) openModal(sommerpauseModal);
-    return;
-  }
 
   const loadVideo = async () => {
     try {
