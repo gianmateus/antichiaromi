@@ -16,7 +16,7 @@
   const renderWeeklyMenu = lang => {
     const groups = window.WEEKLY_MENU[lang];
     weeklySection.hidden = !groups.length;
-    weeklySection.querySelector('.weekly-items').innerHTML = groups.map(group => `<p class="weekly-group">${group.category}</p>${group.items.map(item => `<article><h4>${item.name}</h4><p>${item.description}</p><b>${item.price}</b></article>`).join('')}`).join('');
+    weeklySection.querySelector('.weekly-items').innerHTML = groups.map(group => `<div class="weekly-col"><p class="weekly-group">${group.category}</p>${group.items.map(item => `<article><div class="weekly-item-head"><h4>${item.name}</h4><b>${item.price}</b></div><p>${item.description}</p></article>`).join('')}</div>`).join('');
   };
 
   const renderFallbackMenu = lang => {
