@@ -14,9 +14,9 @@
   const weeklySection = document.querySelector('#weekly-menu');
 
   const renderWeeklyMenu = lang => {
-    const items = window.WEEKLY_MENU[lang];
-    weeklySection.hidden = !items.length;
-    weeklySection.querySelector('.weekly-items').innerHTML = items.map(item => `<article><h4>${item.name}</h4><p>${item.description}</p><b>${item.price}</b></article>`).join('');
+    const groups = window.WEEKLY_MENU[lang];
+    weeklySection.hidden = !groups.length;
+    weeklySection.querySelector('.weekly-items').innerHTML = groups.map(group => `<p class="weekly-group">${group.category}</p>${group.items.map(item => `<article><h4>${item.name}</h4><p>${item.description}</p><b>${item.price}</b></article>`).join('')}`).join('');
   };
 
   const renderFallbackMenu = lang => {
