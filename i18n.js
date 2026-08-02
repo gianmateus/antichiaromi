@@ -168,7 +168,6 @@ window.WEEKLY_MENU = {
       { name: 'Ravioloni ricotta e spinaci', description: 'Teigtaschen mit Ricotta und Spinat gefüllt, in Butter Salbei Sauce und frischen Parmesakäse', price: '17,50 €' }
     ] },
     { category: 'Secondi', items: [
-      { name: 'Pesce spada alla griglia', description: 'Schwertfischsteak vom Grill, in einer Zitronen-Olivenöl-Marinade und frischer Minze, dazu servieren wir Rosmarinkartoffeln', price: '22,50 €' },
       { name: 'Maiale con cantarelli', description: 'Schweinefilet-Medaillons an marktfrischen, sautierten Pfifferlingen serviert mit feinen Rosmarinkartoffeln', price: '21,50 €' },
       { name: 'Bistecca con cantarelli', description: 'Saftiges Rumpsteak an marktfrischen, sautierten Pfifferlingen serviert mit feinen Rosmarinkartoffeln', price: '27,50 €' }
     ] },
@@ -187,7 +186,6 @@ window.WEEKLY_MENU = {
       { name: 'Ravioloni ricotta e spinaci', description: 'Ricotta and spinach filled parcels in a butter-sage sauce with fresh Parmesan', price: '17,50 €' }
     ] },
     { category: 'Secondi', items: [
-      { name: 'Pesce spada alla griglia', description: 'Grilled swordfish steak in a lemon-olive oil marinade with fresh mint, served with rosemary potatoes', price: '22,50 €' },
       { name: 'Maiale con cantarelli', description: 'Pork tenderloin medallions with market-fresh sautéed chanterelles, served with delicate rosemary potatoes', price: '21,50 €' },
       { name: 'Bistecca con cantarelli', description: 'Juicy rump steak with market-fresh sautéed chanterelles, served with delicate rosemary potatoes', price: '27,50 €' }
     ] },
