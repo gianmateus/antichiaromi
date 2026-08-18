@@ -167,6 +167,10 @@ window.WEEKLY_MENU = {
       { name: 'Duetto di Carpaccio', description: 'Zweierlei Carpaccio vom Rind und Kalb', price: '€ 16,50' },
       { name: 'Rucola e Calamaretti', description: 'Gebratene baby Calamaretti auf frischen Rucola Salat und Kirschtomaten', price: '€ 16,50' }
     ] },
+    { category: 'Pizze', items: [
+      { name: 'Pizza Salsiccia', description: 'Mit Tomatensauce, Mozzarella, ital. Frischwurst und Champignons', price: '€ 15,50' },
+      { name: 'Pizza Salmone e Pesto', description: 'Mit Tomatensauce, Mozzarella, Lachs, Sahne und grüner Pesto', price: '€ 16,50' }
+    ] },
     { category: 'Primi piatti', items: [
       { name: 'Pasta con Salsiccia e verdure', description: 'Pasta mit ital. Frischwurst und Gemüsen in leicht Pikanter Tomatensauce', price: '€ 16,50' },
       { name: 'Calamarata con Calamaretti', description: 'Calamarata Nudeln mit frischen baby Calamaretti, Knoblauch, Chili in Kirschtomatensauce', price: '€ 19,50' },
@@ -177,10 +181,6 @@ window.WEEKLY_MENU = {
     { category: 'Secondi', items: [
       { name: 'Orata con limone', description: 'Frische Doraden-Filet auf Zitronen-Weißwein Sauce serviert mit feinen Rosmarinkartoffeln und Gemüse', price: '€ 24,50' },
       { name: 'Bistecca con cantarelli', description: 'Saftiges Rumpsteak an marktfrischen, sautierten Pfifferlingen serviert mit feinen Rosmarinkartoffeln und Gemüse', price: '€ 27,50' }
-    ] },
-    { category: 'Pizze', items: [
-      { name: 'Pizza Salsiccia', description: 'Mit Tomatensauce, Mozzarella, ital. Frischwurst und Champignons', price: '€ 15,50' },
-      { name: 'Pizza Salmone e Pesto', description: 'Mit Tomatensauce, Mozzarella, Lachs, Sahne und grüner Pesto', price: '€ 16,50' }
     ] }
   ],
   en: [
@@ -190,6 +190,10 @@ window.WEEKLY_MENU = {
     { category: 'Antipasti', items: [
       { name: 'Duetto di Carpaccio', description: 'Two kinds of carpaccio with beef and veal', price: '€ 16,50' },
       { name: 'Rucola e Calamaretti', description: 'Fried baby squid on fresh rocket salad and cherry tomatoes', price: '€ 16,50' }
+    ] },
+    { category: 'Pizze', items: [
+      { name: 'Pizza Salsiccia', description: 'With tomato sauce, mozzarella, Italian fresh sausage and mushrooms', price: '€ 15,50' },
+      { name: 'Pizza Salmone e Pesto', description: 'With tomato sauce, mozzarella, salmon, cream and green pesto', price: '€ 16,50' }
     ] },
     { category: 'Primi piatti', items: [
       { name: 'Pasta con Salsiccia e verdure', description: 'Pasta with Italian fresh sausage and vegetables in a lightly spicy tomato sauce', price: '€ 16,50' },
@@ -201,10 +205,6 @@ window.WEEKLY_MENU = {
     { category: 'Secondi', items: [
       { name: 'Orata con limone', description: 'Fresh sea bream fillet in lemon-white wine sauce, served with rosemary potatoes and vegetables', price: '€ 24,50' },
       { name: 'Bistecca con cantarelli', description: 'Juicy rump steak with market-fresh sautéed chanterelles, served with rosemary potatoes and vegetables', price: '€ 27,50' }
-    ] },
-    { category: 'Pizze', items: [
-      { name: 'Pizza Salsiccia', description: 'With tomato sauce, mozzarella, Italian fresh sausage and mushrooms', price: '€ 15,50' },
-      { name: 'Pizza Salmone e Pesto', description: 'With tomato sauce, mozzarella, salmon, cream and green pesto', price: '€ 16,50' }
     ] }
   ]
 };
