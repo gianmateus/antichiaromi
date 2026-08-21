@@ -10,7 +10,7 @@
   const sommerpauseEnds = new Date('2026-08-18T00:00:00').getTime();
   const shouldShowSommerpause = () => Boolean(sommerpauseModal) && Date.now() < sommerpauseEnds;
   const familienfeierModal = document.getElementById('familienfeier');
-  const familienfeierStart = new Date('2026-08-22T00:00:00').getTime();
+  const familienfeierStart = new Date('2026-08-21T00:00:00').getTime();
   const familienfeierEnd = new Date('2026-08-23T00:00:00').getTime();
   const shouldShowFamilienfeier = () => Boolean(familienfeierModal) && Date.now() >= familienfeierStart && Date.now() < familienfeierEnd;
   const openModal = modal => { modal.classList.add('open'); modal.setAttribute('aria-hidden', 'false'); modal.querySelector('.modal-close').focus(); };
