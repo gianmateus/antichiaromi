@@ -9,6 +9,10 @@
   const sommerpauseModal = document.getElementById('sommerpause');
   const sommerpauseEnds = new Date('2026-08-18T00:00:00').getTime();
   const shouldShowSommerpause = () => Boolean(sommerpauseModal) && Date.now() < sommerpauseEnds;
+  const familienfeierModal = document.getElementById('familienfeier');
+  const familienfeierStart = new Date('2026-08-22T00:00:00').getTime();
+  const familienfeierEnd = new Date('2026-08-23T00:00:00').getTime();
+  const shouldShowFamilienfeier = () => Boolean(familienfeierModal) && Date.now() >= familienfeierStart && Date.now() < familienfeierEnd;
   const openModal = modal => { modal.classList.add('open'); modal.setAttribute('aria-hidden', 'false'); modal.querySelector('.modal-close').focus(); };
   const source = 'assets/video/restaurant.mp4';
   const weeklySection = document.querySelector('#weekly-menu');
@@ -186,7 +190,7 @@
     document.querySelectorAll('[data-modal]').forEach(button => button.addEventListener('click', () => { const modal = document.getElementById(button.dataset.modal); modal.classList.add('open'); modal.setAttribute('aria-hidden', 'false'); lenis.stop(); modal.querySelector('.modal-close').focus(); }));
     document.querySelectorAll('.modal').forEach(modal => { modal.querySelector('.modal-close').addEventListener('click', () => closeModal(modal)); modal.addEventListener('click', event => { if (event.target === modal) closeModal(modal); }); });
     document.addEventListener('keydown', event => { if (event.key === 'Escape') document.querySelectorAll('.modal.open').forEach(closeModal); });
-    if (shouldShowSommerpause()) { openModal(sommerpauseModal); lenis.stop(); }
+    if (shouldShowFamilienfeier()) { openModal(familienfeierModal); lenis.stop(); } else if (shouldShowSommerpause()) { openModal(sommerpauseModal); lenis.stop(); }
     document.querySelectorAll('.reserve').forEach(button => button.addEventListener('pointermove', event => { const box = button.getBoundingClientRect(); gsap.to(button, { x: (event.clientX - box.left - box.width / 2) * .15, y: (event.clientY - box.top - box.height / 2) * .15, duration: .25 }); }));
     document.querySelectorAll('.reserve').forEach(button => button.addEventListener('pointerleave', () => gsap.to(button, { x: 0, y: 0, duration: .7, ease: 'elastic.out(1,.35)' })));
     window.addEventListener('pointerdown', () => video.play().then(() => video.pause()).catch(() => {}), { once: true });
