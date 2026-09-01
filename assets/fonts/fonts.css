@@ -1,64 +1,65 @@
 /* Self-hosted fonts – keine externe Verbindung zu Google */
+
 @font-face {
   font-family: 'DM Mono';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('aFTU7PB1QTsUX8KYhh0.ttf') format('truetype');
+  src: url('dm-mono-400.ttf') format('truetype');
 }
 @font-face {
   font-family: 'DM Mono';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url('aFTR7PB1QTsUX8KYvumzIYQ.ttf') format('truetype');
+  src: url('dm-mono-500.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Fraunces';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('6NUh8FyLNQOQZAnv9bYEvDiIdE9Ea92uemAk_WBq8U_9v0c2Wa0K7iN7hzFUPJH58nib1603gg7S2nfgRYIctxujDg.ttf') format('truetype');
+  src: url('fraunces-400.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Fraunces';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url('6NUh8FyLNQOQZAnv9bYEvDiIdE9Ea92uemAk_WBq8U_9v0c2Wa0K7iN7hzFUPJH58nib1603gg7S2nfgRYIchRujDg.ttf') format('truetype');
+  src: url('fraunces-500.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Fraunces';
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url('6NUh8FyLNQOQZAnv9bYEvDiIdE9Ea92uemAk_WBq8U_9v0c2Wa0K7iN7hzFUPJH58nib1603gg7S2nfgRYIcaRyjDg.ttf') format('truetype');
+  src: url('fraunces-600.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Manrope';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk79FO_F.ttf') format('truetype');
+  src: url('manrope-400.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Manrope';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url('xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk7PFO_F.ttf') format('truetype');
+  src: url('manrope-500.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Manrope';
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url('xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk4jE-_F.ttf') format('truetype');
+  src: url('manrope-600.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Manrope';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url('xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk4aE-_F.ttf') format('truetype');
+  src: url('manrope-700.ttf') format('truetype');
 }
