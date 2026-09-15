@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Antichi Aromi, authentische sizilianische Küche im Herzen von Prenzlauer Berg." />
+  <meta name="theme-color" content="#1d2117" />
+  <meta property="og:title" content="Antichi Aromi | Sizilianische Küche in Berlin" />
+  <meta property="og:description" content="Authentische sizilianische Küche und italienische Gastfreundschaft in Prenzlauer Berg." />
+  <meta property="og:image" content="assets/poster.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Antichi Aromi | Sizilianische Küche in Berlin</title>
+</head>
+<body>
+  <div class="loader" aria-live="polite"><p>ANTICHI AROMI</p><span><i></i></span><small>Film wird geladen <b>0</b>%</small></div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="nav" aria-label="Hauptnavigation" data-i18n-attr="aria-label:nav.ariaLabel">
+    <a class="wordmark" href="#top">Antichi <em>Aromi</em></a>
+    <div class="nav-actions">
+      <div class="lang-toggle" role="group" aria-label="Sprache wählen" data-i18n-attr="aria-label:nav.langToggleLabel">
+        <button type="button" data-lang="de">DE</button>
+        <span aria-hidden="true">/</span>
+        <button type="button" data-lang="en">EN</button>
+      </div>
+      <a class="reserve nav-reserve" href="https://reservierung.gastroguide.de/Trattoria%20Antichi%20Aromi/279315" target="_blank" rel="noopener" data-i18n="nav.reserve">Tisch reservieren <span>↗</span></a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section id="stage" aria-label="Ein Blick ins Antichi Aromi" data-i18n-attr="aria-label:hero.sectionAriaLabel">
+      <video id="hero-video" muted playsinline preload="metadata" poster="assets/poster.jpg" aria-label="Ein filmischer Einblick in das Restaurant Antichi Aromi" data-i18n-attr="aria-label:hero.videoAriaLabel"></video>
+      <div class="stage-scrim"></div>
+      <div class="hero-copy">
+        <p class="eyebrow">Prenzlauer Berg · Berlin</p>
+        <h1>Antichi<br><i>Aromi</i></h1>
+        <p class="hero-lede" data-i18n="hero.lede">Sizilianische Küche, die nach Sonne, Meer und einem langen Abend am Tisch schmeckt.</p>
+        <a class="text-link" href="#speisekarte" data-i18n="hero.menuLink">Speisekarte entdecken <span>↓</span></a>
+      </div>
+      <div class="scene scene-one"><span>01</span><p data-i18n="hero.scene1">Pecorino,<br>frisch gerieben.</p></div>
+      <div class="scene scene-two"><span>02</span><p data-i18n="hero.scene2">Die Carbonara.<br>Ganz pur.</p></div>
+      <div class="scene scene-three"><span>03</span><p data-i18n="hero.scene3">Mit Liebe<br>vollendet.</p></div>
+      <div class="scene scene-four"><span>04</span><p data-i18n="hero.scene4">Benvenuti<br>bei Antichi Aromi.</p></div>
+    </section>
+
+    <section class="intro section">
+      <p class="eyebrow">La nostra casa</p>
+      <div class="intro-grid">
+        <h2 data-i18n="intro.heading">Ein kleines Stück <i>Sizilien</i> in Berlin.</h2>
+        <div><p data-i18n="intro.body">Im Herzen von Prenzlauer Berg verbinden wir ursprüngliche italienische Rezepte, saisonale Zutaten und die Wärme eines familiären Hauses.</p><a class="text-link dark" href="#kontakt" data-i18n="intro.link">Unser Haus besuchen <span>↘</span></a></div>
+      </div>
+    </section>
+
+    <section class="dishes section" aria-labelledby="dishes-title">
+      <div class="section-head"><p class="eyebrow" data-i18n="dishes.eyebrow">Aus der Küche</p><h2 id="dishes-title" data-i18n="dishes.heading">Lieblingsgerichte<br>des Hauses.</h2></div>
+      <div class="dish-grid">
+        <article class="dish-card large"><img src="assets/images/carbonara.jpg.jpg" alt="Spaghetti carbonara" /><div><p class="eyebrow">Pasta</p><h3>Spaghetti carbonara</h3><p data-i18n="dishes.carbonaraDesc">Originalrezept mit Guanciale, Eigelb und Pecorino.</p></div></article>
+        <article class="dish-card"><img src="assets/images/pizza.jpg.jpg" alt="Pizza bufalina aus dem Steinofen" data-i18n-attr="alt:dishes.bufalinaAlt" /><div><p class="eyebrow">Pizza</p><h3>Pizza bufalina</h3><p data-i18n="dishes.bufalinaDesc">Tomatensauce, Büffelmozzarella, Cherrytomaten und frisches Basilikum.</p></div></article>
+        <article class="dish-card"><img src="assets/images/imaagine4.jpg.jpg" alt="Vitello tonnato" /><div><p class="eyebrow">Antipasto</p><h3>Vitello tonnato</h3><p data-i18n="dishes.vitelloDesc">Kalbfleischscheiben mit Kapern und Thunfischcreme.</p></div></article>
+        <article class="dish-card wide"><img src="assets/images/vino.jpg.jpg" alt="Wein im Antichi Aromi" data-i18n-attr="alt:dishes.neroAlt" /><div><p class="eyebrow">Vino</p><h3>Nero d'Avola</h3><p data-i18n="dishes.neroDesc">Ein sizilianischer Klassiker für einen langen Abend.</p></div></article>
+      </div>
+    </section>
+
+    <section id="speisekarte" class="menu section">
+      <div class="section-head menu-head"><p class="eyebrow">La carta</p><h2 data-i18n="menu.heading">Die Speisekarte.</h2><p data-i18n="menu.note">Alle Preise in Euro. Fragen Sie uns gern nach Allergenen und vegetarischen Optionen.</p></div>
+      <div id="weekly-menu" class="weekly-menu" hidden><div class="weekly-head"><p class="eyebrow" data-i18n="weekly.eyebrow">Empfehlungskarte</p><h3 data-i18n="weekly.heading">Unsere Empfehlungen<br>aus der Küche.</h3></div><div class="weekly-items"></div></div>
+      <div class="menu-list">
+        <details open><summary>Antipasti <span>+</span></summary><div class="menu-items">
+          <p><b>Mozzarella di bufala alla caprese</b><span>12,50 €</span><small>Büffelmozzarella, Tomaten und Basilikum</small></p><p><b>Antipasto dell'orto</b><span>12,50 €</span><small>Gegrilltes Gemüse, Ziegenkäse und Rucola</small></p><p><b>Bietola rossa con caprino</b><span>13,50 €</span><small>Rote-Bete-Carpaccio mit Ziegenkäse und Walnüssen</small></p><p><b>Vitello tonnato</b><span>14,50 €</span><small>Dünne Kalbfleischscheiben mit Thunfischsauce</small></p><p><b>Carpaccio di manzo</b><span>15,00 €</span><small>Rinder-Carpaccio mit Rucola und Parmesan</small></p><p><b>Antipasto Italiano per due</b><span>29,50 €</span><small>Gemischte italienische Vorspeisen für zwei Personen</small></p>
+        </div></details>
+        <details><summary>Zuppe, Insalate & Focaccia <span>+</span></summary><div class="menu-items"><p><b>Crema di pomodoro</b><span>7,50 €</span><small>Tomatencremesuppe</small></p><p><b>Insalata mista</b><span>7,50 €</span><small>Gemischter Salat der Saison</small></p><p><b>Insalata con tonno e patate</b><span>12,50 €</span><small>Gemischter Salat mit Thunfisch und Kartoffeln</small></p><p><b>Bruschetta classica</b><span>7,50 €</span><small>Geröstetes Brot mit Tomaten, Knoblauch und Basilikum</small></p><p><b>Focaccia al pomodoro</b><span>9,00 €</span><small>Focaccia mit Tomaten, Knoblauch und Oregano</small></p></div></details>
+        <details><summary>Pizza <span>+</span></summary><div class="menu-items"><p><b>Pizza margherita</b><span>10,50 €</span><small>Tomatensauce, Mozzarella und Basilikum</small></p><p><b>Pizza funghi</b><span>11,50 €</span><small>Tomatensauce, Mozzarella und Champignons</small></p><p><b>Pizza diavola</b><span>13,50 €</span><small>Tomatensauce, Mozzarella und scharfe Salami</small></p><p><b>Pizza alla norma</b><span>14,00 €</span><small>Tomatensauce, Mozzarella, Auberginen und Ricotta salata</small></p><p><b>Pizza siciliana</b><span>14,50 €</span><small>Tomatensauce, Mozzarella, Sardellen, Kapern und Oliven</small></p><p><b>Pizza tartufata</b><span>15,00 €</span><small>Mozzarella, Trüffelcreme, Parmesan und Rucola</small></p><p><b>Pizza gamberi e zucchine</b><span>16,00 €</span><small>Tomatensauce, Mozzarella, Garnelen und Zucchini</small></p></div></details>
+        <details><summary>Pasta <span>+</span></summary><div class="menu-items"><p><b>Spaghetti al pomodoro e basilico</b><span>11,00 €</span><small>Tomatensauce und Basilikum</small></p><p><b>Penne arrabiata</b><span>12,00 €</span><small>Penne in scharfer Tomatensauce</small></p><p><b>Tagliatelle alla bolognese</b><span>12,50 €</span><small>Hausgemachte Bandnudeln mit Fleischsauce</small></p><p><b>Spaghetti carbonara – Originalrezept</b><span>14,50 €</span><small>Guanciale, Eigelb, Pecorino und Pfeffer</small></p><p><b>Lasagna</b><span>15,00 €</span><small>Lasagne mit Tomaten-Fleischsauce</small></p><p><b>Pappardelle al ragù di vitello</b><span>16,00 €</span><small>Breite Bandnudeln mit Kalbsragout</small></p><p><b>Tagliatelle al salmone</b><span>17,00 €</span><small>Bandnudeln mit Lachs in Sahnesauce</small></p></div></details>
+        <details><summary>Carne & Pesce <span>+</span></summary><div class="menu-items"><p><b>Filetti di maiale al pepe verde</b><span>21,00 €</span><small>Schweinefilet in grüner Pfeffersauce</small></p><p><b>Saltimbocca di maiale</b><span>22,50 €</span><small>Schweinefilet mit Parmaschinken und Salbei</small></p><p><b>Tagliata di manzo</b><span>27,00 €</span><small>Rindersteak mit Rucola und Parmesan</small></p><p><b>Filetti di orate all'acqua pazza</b><span>24,50 €</span><small>Goldbrassenfilet mit Tomaten und Kräutern</small></p><p><b>Gamberi alla griglia</b><span>25,00 €</span><small>Gegrillte Garnelen mit Rosmarinkartoffeln</small></p><p><b>Pesce misto agli aromi</b><span>27,50 €</span><small>Gemischter Fischteller des Hauses</small></p></div></details>
+        <details><summary>Dolci & Vini <span>+</span></summary><div class="menu-items"><p><b>Panna cotta</b><span>7,00 €</span><small>Sahne-Pudding mit Waldfrüchten</small></p><p><b>Tiramisú</b><span>7,50 €</span><small>Klassisches italienisches Dessert</small></p><p><b>Semifreddo alle mandorle</b><span>8,00 €</span><small>Halbgefrorenes Mandel-Dessert</small></p><p><b>Nero d'Avola – Sizilien</b><span>27,50 €</span><small>Flasche</small></p><p><b>Primitivo di Manduria – Apulien</b><span>30,50 €</span><small>Flasche</small></p><p><b>Pinot Grigio I.G.T.</b><span>6,50 €</span><small>0,20 l</small></p></div></details>
+      </div>
+    </section>
+
+    <section class="story"><img src="assets/images/interior-table.jpg" alt="Das Interieur des Antichi Aromi" data-i18n-attr="alt:story.alt" /><div><p class="eyebrow" data-i18n="story.eyebrow">Authentisch & familiär</p><blockquote data-i18n="story.quote">„Hier wird jeder Besuch ein kleines Stück Urlaub.“</blockquote><p data-i18n="story.body">Unsere Gerichte entstehen aus der Liebe zu italienischen Traditionen und zum gemeinsamen Essen.</p></div></section>
+
+    <section id="kontakt" class="contact section"><p class="eyebrow">Prenzlauer Berg</p><h2 data-i18n="contact.heading">Ihr Tisch wartet<br>schon auf Sie.</h2><div class="contact-grid"><address><span data-i18n="contact.addressLabel">Adresse</span>Greifenhagener Str. 38<br>10437 Berlin<a href="https://maps.google.com/?q=Greifenhagener+Str.+38,+10437+Berlin" target="_blank" rel="noopener" data-i18n="contact.routeLink">Route öffnen ↗</a></address><div class="contact-details"><p data-i18n="contact.hours"><span>Öffnungszeiten</span>Di–Sa <b>17:00–23:00</b><br>So <b>16:00–23:00</b><br>Mo <b>Ruhetag</b></p><div><span data-i18n="contact.contactLabel">Kontakt</span><a href="tel:+493084513261">+49 30 84513261</a><a href="mailto:info@antichi-aromi.de">info@antichi-aromi.de</a></div></div></div><div class="contact-actions"><a class="reserve large-reserve" href="https://reservierung.gastroguide.de/Trattoria%20Antichi%20Aromi/279315" target="_blank" rel="noopener" data-i18n="contact.reserveCta">Jetzt Tisch reservieren <span>↗</span></a><a class="instagram" href="https://www.instagram.com/antichi_aromi_berlin/" target="_blank" rel="noopener">Instagram <span>↗</span></a></div></section>
+  </main>
+  <footer><a class="wordmark" href="#top">Antichi <em>Aromi</em></a><p data-i18n="footer.tagline">Sizilianische Küche in Berlin</p><a href="https://www.instagram.com/antichi_aromi_berlin/" target="_blank" rel="noopener">Instagram ↗</a><small>© 2026 Antichi Aromi</small><div class="legal-links"><button data-modal="impressum" data-i18n="footer.impressum">Impressum</button><button data-modal="datenschutz" data-i18n="footer.datenschutz">Datenschutz</button></div></footer>
+  <div class="modal" id="sommerpause" aria-hidden="true"><section class="modal-content" role="dialog" aria-modal="true" aria-labelledby="sommerpause-title"><button class="modal-close" aria-label="Schließen" data-i18n-attr="aria-label:common.close">×</button><p class="eyebrow" data-i18n="sommerpause.eyebrow">Aktuelle Information</p><h2 id="sommerpause-title" data-i18n="sommerpause.title">Sommerpause – Wir sind bald wieder für euch da!</h2><p data-i18n="sommerpause.p1">Liebe Stammgäste und Besucher,</p><p data-i18n="sommerpause.p2">auch wir gönnen uns eine kleine Auszeit! Vom 03.08. bis zum 17.08. bleibt unser Betrieb wegen Urlaub geschlossen.</p><p data-i18n="sommerpause.p3">Ab Dienstag, dem 18. August, sind wir wieder wie gewohnt für euch da. Wir wünschen euch eine wunderbare Sommerzeit und freuen uns auf ein Wiedersehen!</p></section></div>
+  <div class="modal" id="impressum" aria-hidden="true"><section class="modal-content" role="dialog" aria-modal="true" aria-labelledby="impressum-title"><button class="modal-close" aria-label="Schließen" data-i18n-attr="aria-label:common.close">×</button><p class="eyebrow" data-i18n="legal.eyebrow">Rechtliches</p><h2 id="impressum-title" data-i18n="impressum.title">Impressum</h2><p data-i18n="impressum.tmgBlock"><b>Angaben gemäß § 5 TMG</b></p><p>Rosario Bonsignore<br>Antichi Aromi (Einzelunternehmen)<br>Greifenhagener Str. 38<br>10437 Berlin</p><p data-i18n="impressum.contactBlock"><b>Kontakt</b><br>Telefon: +49 30 84513261<br><a href="mailto:info@antichi-aromi.de">info@antichi-aromi.de</a></p><p data-i18n="impressum.vatBlock"><b>USt-ID</b><br>DE 324563811</p><p data-i18n="impressum.authorityBlock"><b>Aufsichtsbehörde</b><br>Ordnungsamt Pankow – Gewerbeangelegenheiten<br>Fröbelstraße Haus 6</p></section></div>
+  <div class="modal" id="datenschutz" aria-hidden="true"><section class="modal-content" role="dialog" aria-modal="true" aria-labelledby="datenschutz-title"><button class="modal-close" aria-label="Schließen" data-i18n-attr="aria-label:common.close">×</button><p class="eyebrow" data-i18n="legal.eyebrow">Rechtliches</p><h2 id="datenschutz-title" data-i18n="datenschutz.title">Datenschutzerklärung</h2><p data-i18n="datenschutz.intro">Diese Datenschutzerklärung klärt über Art, Umfang und Zweck der Verarbeitung personenbezogener Daten innerhalb dieses Onlineangebots auf.</p><h3 data-i18n="datenschutz.controllerHeading">Verantwortlicher</h3><p data-i18n="datenschutz.controllerBody">Rosario Bonsignore / Antichi Aromi<br>Greifenhagener Str. 38, 10437 Berlin<br><a href="mailto:info@antichi-aromi.de">info@antichi-aromi.de</a><br>Inh. Rosario Bonsignore / Einzelunternehmen</p><h3 data-i18n="datenschutz.dataTypesHeading">Arten der verarbeiteten Daten</h3><p data-i18n="datenschutz.dataTypesBody">Bestands- und Kontaktdaten, Inhalts- und Nutzungsdaten sowie Meta- und Kommunikationsdaten, beispielsweise Geräte-Informationen und IP-Adressen.</p><h3 data-i18n="datenschutz.rightsHeading">Ihre Rechte</h3><p data-i18n="datenschutz.rightsBody">Sie haben nach Maßgabe der geltenden gesetzlichen Bestimmungen das Recht auf Auskunft, Berichtigung, Sperrung oder Löschung Ihrer personenbezogenen Daten sowie auf Datenübertragbarkeit und Beschwerde bei der zuständigen Aufsichtsbehörde.</p><h3 data-i18n="datenschutz.reservationHeading">Reservierung</h3><p data-i18n="datenschutz.reservationBody">Über das Reservierungsformular übermittelte Daten werden einschließlich Ihrer Kontaktdaten zur Bearbeitung Ihrer Anfrage verarbeitet. Eine Weitergabe erfolgt nicht ohne Ihre Einwilligung.</p><h3 data-i18n="datenschutz.googleHeading">Google Fonts und Google Maps</h3><p data-i18n="datenschutz.googleBody">Diese Website bindet Schriftarten und Google Maps von Google LLC ein. Dabei können insbesondere IP-Adressen und Standortdaten verarbeitet werden. Weitere Informationen finden Sie in der <a href="https://www.google.com/policies/privacy/" target="_blank" rel="noopener">Datenschutzerklärung von Google</a>.</p><p><small data-i18n="datenschutz.source">Quelle: Datenschutz-Konfigurator von mein-datenschutzbeauftragter.de</small></p></section></div>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script><script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script><script src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js"></script><script src="i18n.js"></script><script src="script.js"></script>
+</body>
+</html>
