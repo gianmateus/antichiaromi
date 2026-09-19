@@ -21,8 +21,9 @@
     const groups = window.WEEKLY_MENU[lang];
     weeklySection.hidden = !groups.length;
     const renderGroup = group => `<p class="weekly-group">${group.category}</p>${group.items.map(item => `<article><div class="weekly-item-head"><h4>${item.name}</h4><b>${item.price}</b></div><p>${item.description}</p></article>`).join('')}`;
-    const col1 = groups.slice(0, 3);
-    const col2 = groups.slice(3);
+    const half = Math.ceil(groups.length / 2);
+    const col1 = groups.slice(0, half);
+    const col2 = groups.slice(half);
     const html = `<div class="weekly-col">${col1.map(renderGroup).join('')}</div><div class="weekly-col">${col2.map(renderGroup).join('')}</div>`;
     weeklySection.querySelector('.weekly-items').innerHTML = html;
   };
