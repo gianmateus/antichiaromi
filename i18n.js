@@ -177,10 +177,6 @@ window.WEEKLY_MENU = {
       { name: 'Duetto di Carpaccio', description: 'Zweierlei Carpaccio vom Rind mit Rucola und Parmesankäse und Kalbfleisch in Thunfischsauce', price: '€ 17,50' },
       { name: 'Rucola e Calamaretti', description: 'Gebratene Baby-Calamaretti auf frischem Rucola-Salat und Cherrytomaten', price: '€ 16,50' }
     ] },
-    { category: 'Pizze', items: [
-      { name: 'Pizza Salsiccia', description: 'Mit Tomatensauce, Mozzarella, ital. Frischwurst und Champignons', price: '€ 15,50' },
-      { name: 'Pizza Milano', description: 'Mit Tomatensauce, ital. Fenchel-Salami, Peperoni und Zwiebel', price: '€ 16,50' }
-    ] },
     { category: 'Primi piatti', items: [
       { name: 'Pasta con salsiccia e verdure', description: 'Pasta mit ital. Frischwurst und Gemüse in leicht pikanter Tomatensauce', price: '€ 16,50' },
       { name: 'Pasta con calamaretti', description: 'Pasta mit frischen Baby-Calamaretti, Knoblauch und Chili in Cherrytomatensauce', price: '€ 19,50' },
@@ -189,19 +185,19 @@ window.WEEKLY_MENU = {
       { name: 'Tortelloni ai Porcini', description: 'Teigtaschen mit Steinpilzfüllung in einer Steinpilz-Butter-Sauce mit Trüffel-Aroma und frisch geriebenem Parmesankäse', price: '€ 21,50' }
     ] },
     { category: 'Secondi', items: [
-      { name: 'Tonno alla siciliana', description: 'Rosa gebratenes Thunfischsteak auf Rotwein-Reduktion, geschmorten Zwiebeln, und Sesam, serviert mit Rosmarinkartoffeln und Gemüse', price: '€ 28,50' },
-      { name: 'Bistecca di manzo alla Siciliana', description: 'Rumpsteak mit Tomatensauce, Oregano and Oliven, (leicht Pikant), serviert mit Rosmarinkartoffeln und Gemüse', price: '€ 27,50' },
-      { name: 'Cotolette d\'agnello su letto di vino rosso', description: 'Lammkoteletts in Kräuterknuste auf Rotwein-Reduktion, serviert mit Rosmarinkartoffeln und Gemüse', price: '€ 32,50' }
+      { name: 'Gamberoni al prosciutto crudo', description: 'Gebratene Gambas, gerollt mit ital. Landschinken, auf Weißwein-Butter-Salbei-Sauce serviert mit Rosmarinkartoffeln und Gemüse', price: '€ 28,50' },
+      { name: 'Bistecca di manzo alla Siciliana', description: 'Rumpsteak mit Tomatensauce, Oregano und Oliven (leicht pikant), serviert mit Rosmarinkartoffeln und Gemüse', price: '€ 27,50' },
+      { name: 'Fegato alla veneziana', description: 'Gebratene Kalbsleberstreifen mit Zwiebeln in Weißwein-Salbei-Sauce, dazu Kartoffelpüree und Beilagensalat', price: '€ 24,50' }
+    ] },
+    { category: 'Pizze', items: [
+      { name: 'Pizza Salsiccia', description: 'Mit Tomatensauce, Mozzarella, ital. Frischwurst und Champignons', price: '€ 15,50' },
+      { name: 'Pizza Milano', description: 'Mit Tomatensauce, ital. Fenchel-Salami, Peperoni und Zwiebel', price: '€ 16,50' }
     ] }
   ],
   en: [
     { category: 'Antipasti', items: [
       { name: 'Duetto di Carpaccio', description: 'Two kinds of carpaccio with beef, arugula and Parmesan, and veal with tuna sauce', price: '€ 17,50' },
       { name: 'Rucola e Calamaretti', description: 'Fried baby squid on fresh rocket salad and cherry tomatoes', price: '€ 16,50' }
-    ] },
-    { category: 'Pizze', items: [
-      { name: 'Pizza Salsiccia', description: 'With tomato sauce, mozzarella, Italian fresh sausage and mushrooms', price: '€ 15,50' },
-      { name: 'Pizza Milano', description: 'With tomato sauce, Italian fennel salami, pepperoni and onion', price: '€ 16,50' }
     ] },
     { category: 'Primi piatti', items: [
       { name: 'Pasta con salsiccia e verdure', description: 'Pasta with Italian fresh sausage and vegetables in a lightly spicy tomato sauce', price: '€ 16,50' },
@@ -211,9 +207,13 @@ window.WEEKLY_MENU = {
       { name: 'Tortelloni ai Porcini', description: 'Parcels filled with porcini mushrooms in a porcini-butter sauce with truffle aroma and freshly grated Parmesan', price: '€ 21,50' }
     ] },
     { category: 'Secondi', items: [
-      { name: 'Tonno alla siciliana', description: 'Rosé seared tuna steak on red wine reduction, braised onions and sesame, served with rosemary potatoes and vegetables', price: '€ 28,50' },
+      { name: 'Gamberoni al prosciutto crudo', description: 'Fried prawns rolled in Italian cured ham, served on white wine, butter and sage sauce with rosemary potatoes and vegetables', price: '€ 28,50' },
       { name: 'Bistecca di manzo alla Siciliana', description: 'Rump steak with tomato sauce, oregano and olives (lightly spicy), served with rosemary potatoes and vegetables', price: '€ 27,50' },
-      { name: 'Cotolette d\'agnello su letto di vino rosso', description: 'Lamb chops in herb crust on red wine reduction, served with rosemary potatoes and vegetables', price: '€ 32,50' }
+      { name: 'Fegato alla veneziana', description: 'Fried veal liver strips with onions in white wine and sage sauce, served with mashed potatoes and side salad', price: '€ 24,50' }
+    ] },
+    { category: 'Pizze', items: [
+      { name: 'Pizza Salsiccia', description: 'With tomato sauce, mozzarella, Italian fresh sausage and mushrooms', price: '€ 15,50' },
+      { name: 'Pizza Milano', description: 'With tomato sauce, Italian fennel salami, pepperoni and onion', price: '€ 16,50' }
     ] }
   ]
 };
