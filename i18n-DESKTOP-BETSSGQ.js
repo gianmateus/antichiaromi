@@ -137,45 +137,45 @@ window.I18N = {
 window.WEEKLY_MENU = {
   de: [
     { category: 'Antipasti', items: [
+      { name: 'Polipo su crema di patate e peperoni', description: 'Gebratener Oktopus-Tentakel auf Kartoffel-Püree und Paprika-Creme', price: '€ 20,50' },
       { name: 'Duetto di Carpaccio', description: 'Zweierlei Carpaccio vom Rind mit Rucola und Parmesankäse und Kalbfleisch in Thunfischsauce', price: '€ 17,50' },
       { name: 'Rucola e Calamaretti', description: 'Gebratene Baby-Calamaretti auf frischem Rucola-Salat und Cherrytomaten', price: '€ 16,50' }
     ] },
     { category: 'Primi piatti', items: [
-      { name: 'Pasta con salsiccia e verdure', description: 'Pasta mit ital. Frischwurst und Gemüse in leicht pikanter Tomatensauce', price: '€ 16,50' },
+      { name: 'Pasta con nduja e verdure', description: 'Pasta mit scharfer Streichwurst und Gemüse in Cherry-Tomatensauce', price: '€ 16,50' },
       { name: 'Pasta con calamaretti', description: 'Pasta mit frischen Baby-Calamaretti, Knoblauch und Chili in Cherrytomatensauce', price: '€ 19,50' },
       { name: 'Tagliolini al Tartufo', description: 'Feine Bandnudeln in einer edlen Butter-Trüffel-Parmesan-Sauce, vollendet mit frisch geriebenem Trüffel', price: '€ 21,50' },
-      { name: 'Tagliolini al Tonno e Melanzane', description: 'Feine Bandnudeln mit frischen Thunfischstückchen und Auberginen in Cherrytomatensauce (leicht pikant)', price: '€ 20,50' },
       { name: 'Tortelloni ai Porcini', description: 'Teigtaschen mit Steinpilzfüllung in einer Steinpilz-Butter-Sauce mit Trüffel-Aroma und frisch geriebenem Parmesankäse', price: '€ 21,50' }
     ] },
     { category: 'Secondi', items: [
       { name: 'Gamberoni al prosciutto crudo', description: 'Gebratene Gambas, gerollt mit ital. Landschinken, auf Weißwein-Butter-Salbei-Sauce serviert mit Rosmarinkartoffeln und Gemüse', price: '€ 28,50' },
       { name: 'Bistecca di manzo alla Siciliana', description: 'Rumpsteak mit Tomatensauce, Oregano und Oliven (leicht pikant), serviert mit Rosmarinkartoffeln und Gemüse', price: '€ 27,50' },
-      { name: 'Fegato alla veneziana', description: 'Gebratene Kalbsleberstreifen mit Zwiebeln in Weißwein-Salbei-Sauce, dazu Kartoffelpüree und Beilagensalat', price: '€ 24,50' }
+      { name: 'Fegato alla veneziana', description: 'Gebratene Kalbsleberstreifen mit Zwiebeln in Weißwein-Salbei-Sauce, dazu Kartoffelpüree und Beilagensalat', price: '€ 25,50' }
     ] },
     { category: 'Pizze', items: [
-      { name: 'Pizza Salsiccia', description: 'Mit Tomatensauce, Mozzarella, ital. Frischwurst und Champignons', price: '€ 15,50' },
+      { name: 'Pizza con nduja', description: 'Mit Tomatensauce, Mozzarella, scharfer Streichwurst, Gorgonzola und Zwiebeln', price: '€ 16,50' },
       { name: 'Pizza Milano', description: 'Mit Tomatensauce, ital. Fenchel-Salami, Peperoni und Zwiebel', price: '€ 16,50' }
     ] }
   ],
   en: [
     { category: 'Antipasti', items: [
+      { name: 'Polipo su crema di patate e peperoni', description: 'Pan-fried octopus tentacle on potato puree and bell pepper cream', price: '€ 20,50' },
       { name: 'Duetto di Carpaccio', description: 'Two kinds of carpaccio with beef, arugula and Parmesan, and veal with tuna sauce', price: '€ 17,50' },
       { name: 'Rucola e Calamaretti', description: 'Fried baby squid on fresh rocket salad and cherry tomatoes', price: '€ 16,50' }
     ] },
     { category: 'Primi piatti', items: [
-      { name: 'Pasta con salsiccia e verdure', description: 'Pasta with Italian fresh sausage and vegetables in a lightly spicy tomato sauce', price: '€ 16,50' },
+      { name: 'Pasta con nduja e verdure', description: 'Pasta with spicy spreadable sausage and vegetables in cherry tomato sauce', price: '€ 16,50' },
       { name: 'Pasta con calamaretti', description: 'Pasta with fresh baby squid, garlic and chili in cherry tomato sauce', price: '€ 19,50' },
       { name: 'Tagliolini al Tartufo', description: 'Fine ribbon pasta in an exquisite butter-truffle-Parmesan sauce, finished with freshly grated truffle', price: '€ 21,50' },
-      { name: 'Tagliolini al Tonno e Melanzane', description: 'Fine ribbon pasta with fresh tuna pieces and eggplant in cherry tomato sauce (lightly spicy)', price: '€ 20,50' },
       { name: 'Tortelloni ai Porcini', description: 'Parcels filled with porcini mushrooms in a porcini-butter sauce with truffle aroma and freshly grated Parmesan', price: '€ 21,50' }
     ] },
     { category: 'Secondi', items: [
       { name: 'Gamberoni al prosciutto crudo', description: 'Fried prawns rolled in Italian cured ham, served on white wine, butter and sage sauce with rosemary potatoes and vegetables', price: '€ 28,50' },
       { name: 'Bistecca di manzo alla Siciliana', description: 'Rump steak with tomato sauce, oregano and olives (lightly spicy), served with rosemary potatoes and vegetables', price: '€ 27,50' },
-      { name: 'Fegato alla veneziana', description: 'Fried veal liver strips with onions in white wine and sage sauce, served with mashed potatoes and side salad', price: '€ 24,50' }
+      { name: 'Fegato alla veneziana', description: 'Fried veal liver strips with onions in white wine and sage sauce, served with mashed potatoes and side salad', price: '€ 25,50' }
     ] },
     { category: 'Pizze', items: [
-      { name: 'Pizza Salsiccia', description: 'With tomato sauce, mozzarella, Italian fresh sausage and mushrooms', price: '€ 15,50' },
+      { name: 'Pizza con nduja', description: 'With tomato sauce, mozzarella, spicy spreadable sausage, Gorgonzola and onions', price: '€ 16,50' },
       { name: 'Pizza Milano', description: 'With tomato sauce, Italian fennel salami, pepperoni and onion', price: '€ 16,50' }
     ] }
   ]
