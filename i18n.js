@@ -174,24 +174,24 @@ window.I18N = {
 window.WEEKLY_MENU = {
   de: [
     { category: 'Antipasti', items: [
-      { name: 'Calamaretti su purea di patate', description: 'Gebratene Baby-Calamaretti auf Kartoffelpüree', price: '€ 16,50' },
+      { name: 'Crema di Zucca', description: 'Kürbis-Creme Suppe mit Kürbiskernen', price: '€ 8,50' },
       { name: 'Tris di Bruschetta', description: 'Drei Scheiben Bruschetta, jeweils belegt mit Tomatenstückchen, Scharfe-Streichwurst und Olivenpaté.', price: '€ 10,50' },
-      { name: 'Crema di Zucca', description: 'Kürbis-Creme Suppe mit Kürbiskernen', price: '€ 8,50' }
+      { name: 'Calamaretti su purea di patate', description: 'Gebratene Baby-Calamaretti auf Kartoffelpüree', price: '€ 16,50' }
     ] },
     { category: 'Primi piatti', items: [
       { name: 'Pasta con punti di manzo e funghi', description: 'Pasta mit Rinderstreifen und frischen Champignons in Aurora Sauce. (Tomaten-Sahnesauce)', price: '€ 18,50' },
+      { name: 'Gnocchi al ragu di Cinghiale', description: 'Kartoffelnudeln mit hausgemachtem Wildschwein-Ragout', price: '€ 19,50' },
       { name: 'Calamarata con calamaretti', description: 'Calamarata Pasta mit frischen Baby-Calamaretti, Knoblauch und Chili in Cherrytomatensauce', price: '€ 19,50' },
-      { name: 'Tagliolini al Tartufo', description: 'Feine Bandnudeln in einer edlen Butter-Trüffel-Parmesan-Sauce, vollendet mit frisch geriebenem Trüffel', price: '€ 21,50' },
-      { name: 'Tortelloni ai Porcini', description: 'Teigtaschen mit Steinpilzfüllung in einer Steinpilz-Butter-Sauce mit Trüffel-Aroma und frisch geriebenen Parmesankäse', price: '€ 21,50' }
+      { name: 'Tagliolini al Tartufo', description: 'Feine Bandnudeln in einer edlen Butter-Trüffel-Parmesan-Sauce, vollendet mit frisch geriebenem Trüffel', price: '€ 21,50' }
     ] },
     { category: 'Secondi', items: [
       { name: 'Salmone al sesamo', description: 'Sanft gebratener Lachs in Sesammantel auf Orangenspiegel, serviert mit frischen Tagesbeilagen', price: '€ 26,50' },
-      { name: 'Bistecca ai Porcini', description: 'Rumpsteak mit Steinpilzen in Sahne-Rahmsauce, serviert mit frischen Tagesbeilagen', price: '€ 26,50' },
+      { name: 'Bistecca al pepe verde', description: 'Rumpsteak mit grünem Pfeffer in leichter Rotwein-Sahne-Rahm-Sauce, serviert mit frischen Tagesbeilagen', price: '€ 26,50' },
       { name: 'Fegato alla veneziana', description: 'Gebratene Kalbsleberstreifen mit Zwiebeln in Weißwein-Salbei-Sauce, dazu Kartoffelpüree und Beilage Salat', price: '€ 24,50' }
     ] },
     { category: 'Pizze', items: [
       { name: 'Pizza con nduja', description: 'Mit Tomatensauce, Mozzarella, mit scharfer Streichwurst, Gorgonzola und Zwiebeln', price: '€ 16,50' },
-      { name: 'Pizza Speciale', description: 'Mit Tomatensauce, ital. Fenchel-Salami, Steinpilze, Trüffel-Öl und Parmesan-raspeln', price: '€ 17,50' }
+      { name: 'Pizza rossa', description: 'Mit Tomatensauce, Büffel-Mozzarella, ital. Landschinken, Rucola und Cherrytomaten', price: '€ 17,50' }
     ] },
     { category: 'Dolci', items: [
       { name: 'Tartufo affogato al caffe', description: 'Ein halbgefrorenes Dessert aus Kaffee- und Zabaionecreme mit einem Kern aus Kaffeesauce, umhüllt von weißen Baiserstücken im Espresso „ertränkt“.', price: '€ 8,50' }
@@ -199,24 +199,24 @@ window.WEEKLY_MENU = {
   ],
   en: [
     { category: 'Antipasti', items: [
-      { name: 'Calamaretti su purea di patate', description: 'Pan-fried baby squid on mashed potatoes', price: '€ 16,50' },
+      { name: 'Crema di Zucca', description: 'Pumpkin cream soup with pumpkin seeds', price: '€ 8,50' },
       { name: 'Tris di Bruschetta', description: 'Three bruschetta slices topped with diced tomatoes, spicy spreadable sausage and olive pâté', price: '€ 10,50' },
-      { name: 'Crema di Zucca', description: 'Pumpkin cream soup with pumpkin seeds', price: '€ 8,50' }
+      { name: 'Calamaretti su purea di patate', description: 'Pan-fried baby squid on mashed potatoes', price: '€ 16,50' }
     ] },
     { category: 'Primi piatti', items: [
       { name: 'Pasta con punti di manzo e funghi', description: 'Pasta with beef strips and fresh mushrooms in Aurora sauce (tomato-cream sauce)', price: '€ 18,50' },
+      { name: 'Gnocchi al ragu di Cinghiale', description: 'Potato dumplings with homemade wild boar ragù', price: '€ 19,50' },
       { name: 'Calamarata con calamaretti', description: 'Calamarata pasta with fresh baby squid, garlic and chili in cherry tomato sauce', price: '€ 19,50' },
-      { name: 'Tagliolini al Tartufo', description: 'Fine ribbon pasta in a refined butter-truffle-Parmesan sauce finished with freshly grated truffle', price: '€ 21,50' },
-      { name: 'Tortelloni ai Porcini', description: 'Stuffed pasta parcels with porcini filling in a porcini-butter sauce with truffle aroma and freshly grated Parmesan', price: '€ 21,50' }
+      { name: 'Tagliolini al Tartufo', description: 'Fine ribbon pasta in a refined butter-truffle-Parmesan sauce finished with freshly grated truffle', price: '€ 21,50' }
     ] },
     { category: 'Secondi', items: [
       { name: 'Salmone al sesamo', description: 'Gently seared salmon in a sesame crust on orange emulsion, served with fresh daily sides', price: '€ 26,50' },
-      { name: 'Bistecca ai Porcini', description: 'Rump steak with porcini mushrooms in cream sauce, served with fresh daily sides', price: '€ 26,50' },
+      { name: 'Bistecca al pepe verde', description: 'Rump steak with green pepper in a light red wine cream sauce, served with fresh daily sides', price: '€ 26,50' },
       { name: 'Fegato alla veneziana', description: 'Pan-fried veal liver strips with onions in white wine and sage sauce, served with mashed potatoes and a side salad', price: '€ 24,50' }
     ] },
     { category: 'Pizze', items: [
       { name: 'Pizza con nduja', description: 'Tomato sauce, mozzarella, spicy spreadable sausage, Gorgonzola and onions', price: '€ 16,50' },
-      { name: 'Pizza Speciale', description: 'Tomato sauce, Italian fennel salami, porcini mushrooms, truffle oil and Parmesan shavings', price: '€ 17,50' }
+      { name: 'Pizza rossa', description: 'Tomato sauce, buffalo mozzarella, Italian cured ham, rocket and cherry tomatoes', price: '€ 17,50' }
     ] },
     { category: 'Dolci', items: [
       { name: 'Tartufo affogato al caffe', description: 'A semi-frozen dessert of coffee and zabaglione cream with a center of coffee sauce, surrounded by white meringue pieces and “drowned” in espresso', price: '€ 8,50' }
