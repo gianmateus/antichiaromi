@@ -180,7 +180,7 @@ window.WEEKLY_MENU = {
     { category: 'Primi piatti', items: [
       { name: 'Pasta con punti di manzo e funghi', description: 'Pasta mit Rinderstreifen und frischen Champignons in Aurora Sauce. (Tomaten-Sahnesauce)', price: '€ 18,50' },
       { name: 'Gnocchi al ragu di Cinghiale', description: 'Kartoffelnudeln mit hausgemachtem Wildschwein-Ragout', price: '€ 19,50' },
-      { name: 'Calamarata con calamaretti', description: 'Calamarata Pasta mit frischen Baby-Calamaretti, Knoblauch und Chili in Cherrytomatensauce', price: '€ 19,50' },
+      { name: 'Pasta con calamaretti e cozze', description: 'Calamarata Pasta mit frischen Baby-Calamaretti, Muscheln, Knoblauch und Chili in Tomatensauce', price: '€ 19,50' },
       { name: 'Tagliolini al Tartufo', description: 'Feine Bandnudeln in einer edlen Butter-Trüffel-Parmesan-Sauce, vollendet mit frisch geriebenem Trüffel', price: '€ 21,50' }
     ] },
     { category: 'Secondi', items: [
@@ -203,7 +203,7 @@ window.WEEKLY_MENU = {
     { category: 'Primi piatti', items: [
       { name: 'Pasta con punti di manzo e funghi', description: 'Pasta with beef strips and fresh mushrooms in Aurora sauce (tomato-cream sauce)', price: '€ 18,50' },
       { name: 'Gnocchi al ragu di Cinghiale', description: 'Potato dumplings with homemade wild boar ragù', price: '€ 19,50' },
-      { name: 'Calamarata con calamaretti', description: 'Calamarata pasta with fresh baby squid, garlic and chili in cherry tomato sauce', price: '€ 19,50' },
+      { name: 'Pasta con calamaretti e cozze', description: 'Calamarata pasta with fresh baby squid, mussels, garlic and chili in tomato sauce', price: '€ 19,50' },
       { name: 'Tagliolini al Tartufo', description: 'Fine ribbon pasta in a refined butter-truffle-Parmesan sauce finished with freshly grated truffle', price: '€ 21,50' }
     ] },
     { category: 'Secondi', items: [
