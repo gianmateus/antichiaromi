@@ -175,21 +175,22 @@ window.WEEKLY_MENU = {
   de: [
     { category: 'Antipasti', items: [
       { name: 'Crema di Zucca', description: 'Kürbis-Creme Suppe mit Kürbiskernen', price: '€ 8,50' },
-      { name: 'Tris di Bruschetta', description: 'Drei Scheiben Bruschetta, jeweils belegt mit Tomatenstückchen, Scharfe-Streichwurst und Olivenpaté.', price: '€ 10,50' }
+      { name: 'Tris di Bruschetta', description: 'Drei Scheiben Bruschetta, jeweils belegt mit Tomatenstückchen, scharfer Streichwurst und Käse-Oliven.', price: '€ 10,50' }
     ] },
     { category: 'Primi piatti', items: [
-      { name: 'Pasta con punti di manzo e funghi', description: 'Pasta mit Rinderstreifen und frischen Champignons in Aurora Sauce. (Tomaten-Sahnesauce)', price: '€ 18,50' },
-      { name: 'Gnocchi al ragu di Cinghiale', description: 'Kartoffelnudeln mit hausgemachtem Wildschwein-Ragout', price: '€ 19,50' },
-      { name: 'Pasta con calamaretti e cozze', description: 'Calamarata Pasta mit frischen Baby-Calamaretti, Muscheln, Knoblauch und Chili in Tomatensauce', price: '€ 19,50' },
+      { name: 'Calamarata con pesce spada alla Siciliana', description: 'Calamarata Nudeln mit Schwertfischstücken, Knoblauch, frischer Minze und Kapern in leichter Cherrytomaten-Weißwein-Sauce', price: '€ 18,50' },
+      { name: 'Spaghetti con calamaretti e cozze', description: 'Spaghetti mit frischen Baby-Calamaretti, Muscheln, Knoblauch und Chili in Tomatensauce', price: '€ 19,50' },
       { name: 'Tagliolini al Tartufo', description: 'Feine Bandnudeln in einer edlen Butter-Trüffel-Parmesan-Sauce, vollendet mit frisch geriebenem Trüffel', price: '€ 21,50' }
     ] },
     { category: 'Secondi', items: [
       { name: 'Salmone al sesamo', description: 'Sanft gebratener Lachs in Sesammantel auf Orangenspiegel, serviert mit frischen Tagesbeilagen', price: '€ 26,50' },
-      { name: 'Bistecca al pepe verde', description: 'Rumpsteak mit grünem Pfeffer in leichter Rotwein-Sahne-Rahm-Sauce, serviert mit frischen Tagesbeilagen', price: '€ 26,50' }
+      { name: "Pesce Spada all'acqua pazza", description: 'Gebratener Schwertfisch mit Oliven und Kapern in leichter Cherrytomatensauce, serviert mit frischen Tagesbeilagen', price: '€ 24,50' },
+      { name: 'Ossobuco alla milanese', description: 'Geschmorte Kalbshaxe nach Mailänder Art mit Safranreis, serviert mit frischen Tagesbeilagen', price: '€ 28,50' },
+      { name: 'Medaglioni di cinghiale al vino rosso e prugne', description: 'Wildschweinemedaillons in Rotwein-Reduktion und Pflaumen, auf Polenta', price: '€ 24,50' }
     ] },
     { category: 'Pizze', items: [
       { name: 'Pizza con nduja', description: 'Mit Tomatensauce, Mozzarella, mit scharfer Streichwurst, Gorgonzola und Zwiebeln', price: '€ 16,50' },
-      { name: 'Pizza Salsiccia', description: 'Mit Tomatensauce, Büffel-Mozzarella, ital. Frischwurst, Rucola und Cherrytomaten', price: '€ 17,50' }
+      { name: 'Pizza Salsiccia in bianco', description: 'Mit Burrata-Mozzarella, ital. Frischwurst, Rucola und Cherrytomaten', price: '€ 17,50' }
     ] },
     { category: 'Dolci', items: [
       { name: 'Tartufo affogato al caffe', description: 'Ein halbgefrorenes Dessert aus Kaffee- und Zabaionecreme mit einem Kern aus Kaffeesauce, umhüllt von weißen Baiserstücken im Espresso „ertränkt“.', price: '€ 8,50' }
@@ -198,21 +199,22 @@ window.WEEKLY_MENU = {
   en: [
     { category: 'Antipasti', items: [
       { name: 'Crema di Zucca', description: 'Pumpkin cream soup with pumpkin seeds', price: '€ 8,50' },
-      { name: 'Tris di Bruschetta', description: 'Three bruschetta slices topped with diced tomatoes, spicy spreadable sausage and olive pâté', price: '€ 10,50' }
+      { name: 'Tris di Bruschetta', description: 'Three bruschetta slices topped with diced tomatoes, spicy spreadable sausage and cheese-stuffed olives', price: '€ 10,50' }
     ] },
     { category: 'Primi piatti', items: [
-      { name: 'Pasta con punti di manzo e funghi', description: 'Pasta with beef strips and fresh mushrooms in Aurora sauce (tomato-cream sauce)', price: '€ 18,50' },
-      { name: 'Gnocchi al ragu di Cinghiale', description: 'Potato dumplings with homemade wild boar ragù', price: '€ 19,50' },
-      { name: 'Pasta con calamaretti e cozze', description: 'Calamarata pasta with fresh baby squid, mussels, garlic and chili in tomato sauce', price: '€ 19,50' },
+      { name: 'Calamarata con pesce spada alla Siciliana', description: 'Calamarata pasta with swordfish pieces, garlic, fresh mint and capers in a light cherry tomato and white wine sauce', price: '€ 18,50' },
+      { name: 'Spaghetti con calamaretti e cozze', description: 'Spaghetti with fresh baby squid, mussels, garlic and chili in tomato sauce', price: '€ 19,50' },
       { name: 'Tagliolini al Tartufo', description: 'Fine ribbon pasta in a refined butter-truffle-Parmesan sauce finished with freshly grated truffle', price: '€ 21,50' }
     ] },
     { category: 'Secondi', items: [
       { name: 'Salmone al sesamo', description: 'Gently seared salmon in a sesame crust on orange emulsion, served with fresh daily sides', price: '€ 26,50' },
-      { name: 'Bistecca al pepe verde', description: 'Rump steak with green pepper in a light red wine cream sauce, served with fresh daily sides', price: '€ 26,50' }
+      { name: "Pesce Spada all'acqua pazza", description: 'Pan-fried swordfish with olives and capers in a light cherry tomato sauce, served with fresh daily sides', price: '€ 24,50' },
+      { name: 'Ossobuco alla milanese', description: 'Milanese-style braised veal shank with saffron rice, served with fresh daily sides', price: '€ 28,50' },
+      { name: 'Medaglioni di cinghiale al vino rosso e prugne', description: 'Wild boar medallions in a red wine reduction with plums, served on polenta', price: '€ 24,50' }
     ] },
     { category: 'Pizze', items: [
       { name: 'Pizza con nduja', description: 'Tomato sauce, mozzarella, spicy spreadable sausage, Gorgonzola and onions', price: '€ 16,50' },
-      { name: 'Pizza Salsiccia', description: 'Tomato sauce, buffalo mozzarella, Italian fresh sausage, arugula and cherry tomatoes', price: '€ 17,50' }
+      { name: 'Pizza Salsiccia in bianco', description: 'Burrata mozzarella, Italian fresh sausage, arugula and cherry tomatoes', price: '€ 17,50' }
     ] },
     { category: 'Dolci', items: [
       { name: 'Tartufo affogato al caffe', description: 'A semi-frozen dessert of coffee and zabaglione cream with a center of coffee sauce, surrounded by white meringue pieces and “drowned” in espresso', price: '€ 8,50' }
