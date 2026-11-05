@@ -13,6 +13,14 @@
   const familienfeierStart = new Date('2026-08-21T00:00:00').getTime();
   const familienfeierEnd = new Date('2026-08-23T00:00:00').getTime();
   const shouldShowFamilienfeier = () => Boolean(familienfeierModal) && Date.now() >= familienfeierStart && Date.now() < familienfeierEnd;
+  const pastaWeekModal = document.getElementById('pasta-week');
+  const pastaWeekEnd = new Date('2026-11-23T00:00:00+01:00').getTime();
+  const isPastaWeekActive = () => Boolean(pastaWeekModal) && Date.now() < pastaWeekEnd;
+  const shouldShowPastaWeek = () => isPastaWeekActive();
+  if (!isPastaWeekActive()) {
+    pastaWeekModal?.remove();
+    document.querySelectorAll('[data-modal="pasta-week"]').forEach(btn => btn.remove());
+  }
   const openModal = modal => { modal.classList.add('open'); modal.setAttribute('aria-hidden', 'false'); modal.querySelector('.modal-close').focus(); };
   const source = 'assets/video/restaurant.mp4';
   const weeklySection = document.querySelector('#weekly-menu');
@@ -151,7 +159,15 @@
     } catch {
       video.src = source;
     }
-    video.addEventListener('loadedmetadata', init, { once: true });
+    let initialized = false;
+    const safeInit = () => {
+      if (initialized) return;
+      initialized = true;
+      init();
+    };
+    video.addEventListener('loadedmetadata', safeInit, { once: true });
+    video.addEventListener('error', safeInit, { once: true });
+    setTimeout(safeInit, 2500);
     video.load();
   };
 
@@ -166,7 +182,7 @@
     gsap.set(nav, { yPercent: -100, y: 0, autoAlpha: 0 });
     gsap.set('.scene', { autoAlpha: 0 });
     removeLoader();
-    setTimeout(() => { if (!sommerpauseModal || !sommerpauseModal.classList.contains('open')) lenis.start(); }, 450);
+    setTimeout(() => { if (!document.querySelector('.modal.open')) lenis.start(); }, 450);
 
     let seeking = false, desiredTime = 0, lastSeek = 0;
     const seek = () => {
@@ -191,7 +207,16 @@
     document.querySelectorAll('[data-modal]').forEach(button => button.addEventListener('click', () => { const modal = document.getElementById(button.dataset.modal); modal.classList.add('open'); modal.setAttribute('aria-hidden', 'false'); lenis.stop(); modal.querySelector('.modal-close').focus(); }));
     document.querySelectorAll('.modal').forEach(modal => { modal.querySelector('.modal-close').addEventListener('click', () => closeModal(modal)); modal.addEventListener('click', event => { if (event.target === modal) closeModal(modal); }); });
     document.addEventListener('keydown', event => { if (event.key === 'Escape') document.querySelectorAll('.modal.open').forEach(closeModal); });
-    if (shouldShowFamilienfeier()) { openModal(familienfeierModal); lenis.stop(); } else if (shouldShowSommerpause()) { openModal(sommerpauseModal); lenis.stop(); }
+    if (shouldShowFamilienfeier()) {
+      openModal(familienfeierModal);
+      lenis.stop();
+    } else if (shouldShowSommerpause()) {
+      openModal(sommerpauseModal);
+      lenis.stop();
+    } else if (shouldShowPastaWeek()) {
+      openModal(pastaWeekModal);
+      lenis.stop();
+    }
     document.querySelectorAll('.reserve').forEach(button => button.addEventListener('pointermove', event => { const box = button.getBoundingClientRect(); gsap.to(button, { x: (event.clientX - box.left - box.width / 2) * .15, y: (event.clientY - box.top - box.height / 2) * .15, duration: .25 }); }));
     document.querySelectorAll('.reserve').forEach(button => button.addEventListener('pointerleave', () => gsap.to(button, { x: 0, y: 0, duration: .7, ease: 'elastic.out(1,.35)' })));
     window.addEventListener('pointerdown', () => video.play().then(() => video.pause()).catch(() => {}), { once: true });
