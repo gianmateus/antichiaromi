@@ -174,50 +174,50 @@ window.I18N = {
 window.WEEKLY_MENU = {
   de: [
     { category: 'Zuppe', items: [
-      { name: 'Crema di Zucca', description: 'Kürbis-Cremesuppe mit Kürbiskernen', price: '€ 8,50' }
+      { name: 'Crema di Zucca', description: 'Samtige Kürbiscremesuppe, garniert mit gerösteten Kürbiskernen', price: '€ 8,50' }
     ] },
     { category: 'Primi piatti', items: [
-      { name: 'Pasta con pesce spada alla Siciliana', description: 'Pasta mit Schwertfischstücken, Knoblauch, frischer Minze und Kapern in leichter Cherrytomaten-Weißwein-Sauce', price: '€ 18,50' },
-      { name: 'Risotto ai Porcini', description: 'Italienischer Arborio-Reis, verfeinert mit aromatischen Steinpilzen, Butter und Parmesan', price: '€ 19,50' },
-      { name: 'Tagliolini al Tartufo', description: 'Feine Bandnudeln in einer edlen Butter-Trüffel-Parmesan-Sauce, vollendet mit frisch geriebenem Trüffel', price: '€ 21,50' }
+      { name: 'Cannelloni alla Zucca', description: 'Zarte Teigröllchen mit feiner Kürbis-Ricotta-Füllung an cremiger Gorgonzolasauce, vollendet mit mediterranen Akzenten und knusprigem Crumble', price: '€ 16,50' },
+      { name: 'Pasta con Tonno e Melanzane', description: 'Pasta mit zartem Thunfisch, gebratenen Auberginen und frischer Minze in einer leichten Cherrytomaten-Weißwein-Sauce', price: '€ 17,50' },
+      { name: 'Risotto ai Porcini', description: 'Cremiger Arborio-Reis, verfeinert mit aromatischen Steinpilzen, frischer Butter und feinstem Parmesan', price: '€ 19,50' },
+      { name: 'Tagliolini al Tartufo', description: 'Hauchdünne Bandnudeln in edler Butter-Trüffel-Parmesan-Sauce, krönend vollendet mit frisch gehobeltem Trüffel', price: '€ 21,50' }
     ] },
     { category: 'Secondi', items: [
-      { name: 'Salmone al sesamo', description: 'Sanft gebratener Lachs in Sesammantel auf Orangenspiegel, serviert mit frischen Tagesbeilagen', price: '€ 26,50' },
-      { name: "Pesce Spada all'acqua pazza", description: 'Gebratener Schwertfisch mit Oliven und Kapern in leichter Cherrytomatensauce, serviert mit frischen Tagesbeilagen', price: '€ 24,50' },
-      { name: 'Ossobuco alla milanese', description: 'Geschmorte Kalbshaxe nach Mailänder Art mit Safranreis, serviert mit frischen Tagesbeilagen', price: '€ 28,50' },
-      { name: 'Medaglioni di cinghiale al vino rosso e prugne', description: 'Wildschweinemedaillons in Rotweinreduktion und Pflaumen, auf Polenta mit Tagesbeilage', price: '€ 24,50' }
+      { name: 'Medaglioni di Cinghiale al Vino Rosso e Prugne', description: 'Zarte Wildschweinmedaillons in edler Rotweinreduktion mit gedörrten Pflaumen auf Polenta, serviert mit marktfrischer Tagesbeilage', price: '€ 24,50' },
+      { name: 'Tonno al Sesamo', description: 'Kurz gebratenes Thunfischsteak im knusprigen Sesammantel an Rotweinreduktion und süß-sauer geschmorten Zwiebeln, begleitet von frischen Tagesbeilagen', price: '€ 26,50' },
+      { name: 'Ossobuco con Purea di Patate', description: 'Langsam geschmorte Kalbshaxe nach klassischer Art auf samtigem Kartoffelpüree', price: '€ 27,50' }
     ] },
     { category: 'Pizze', items: [
-      { name: 'Pizza con nduja', description: 'Mit Tomatensauce, Mozzarella, mit scharfer Streichwurst, Gorgonzola und Zwiebeln', price: '€ 16,50' },
-      { name: 'Pizza Salsiccia', description: 'Mit Tomatensauce, Burrata-Mozzarella, ital. Frischwurst, Rucola und Cherrytomaten', price: '€ 17,-' },
-      { name: 'Pizza bianca al Tartufo', description: 'Mit Trüffel-Creme, Mozzarella, Speck, Gorgonzola, frischen Champignons und Parmesan-Raspeln', price: '€ 17,50' }
+      { name: 'Pizza Calzone', description: 'Klassisch gefaltet, reichhaltig belegt mit fruchtiger Tomatensauce, schmelzendem Mozzarella, pikanter Salami und frischen Champignons', price: '€ 16,50' },
+      { name: 'Pizza Salsiccia', description: 'Belegt mit fruchtiger Tomatensauce, cremiger Burrata, würziger italienischer Salsiccia, knackigem Rucola und Cherrytomaten', price: '€ 17,00' },
+      { name: 'Pizza Bianca al Tartufo', description: 'Heller Pizzagenuss mit feiner Trüffelcreme, Mozzarella, herzhaftem Speck, Gorgonzola, frischen Champignons und hauchdünnen Parmesanraspeln', price: '€ 17,50' }
     ] },
     { category: 'Dolci', items: [
-      { name: 'Tartufo affogato al caffe', description: 'Ein halbgefrorenes Dessert aus Kaffee- und Zabaionecreme mit einem Kern aus Kaffeesauce, umhüllt von weißen Baiserstücken im Espresso „ertränkt“.', price: '€ 8,50' }
+      { name: 'Tartufo Affogato al Caffè', description: 'Halbgefrorene Delikatesse aus Kaffee- und Zabaionecreme mit flüssigem Kaffeekern, umhüllt von knusprigen Baiserstückchen, in heißem Espresso ertränkt', price: '€ 8,50' }
     ] }
   ],
   en: [
     { category: 'Soups', items: [
-      { name: 'Crema di Zucca', description: 'Pumpkin cream soup with pumpkin seeds', price: '€ 8,50' }
+      { name: 'Crema di Zucca', description: 'Velvety pumpkin cream soup, garnished with roasted pumpkin seeds', price: '€ 8,50' }
     ] },
     { category: 'First courses', items: [
-      { name: 'Pasta con pesce spada alla Siciliana', description: 'Pasta with swordfish pieces, garlic, fresh mint and capers in a light cherry tomato and white wine sauce', price: '€ 18,50' },
-      { name: 'Risotto ai Porcini', description: 'Italian Arborio rice refined with aromatic porcini mushrooms, butter and Parmesan', price: '€ 19,50' },
-      { name: 'Tagliolini al Tartufo', description: 'Fine ribbon pasta in a refined butter-truffle-Parmesan sauce finished with freshly grated truffle', price: '€ 21,50' }
+      { name: 'Cannelloni alla Zucca', description: 'Tender pasta rolls filled with pumpkin and ricotta in a creamy Gorgonzola sauce, finished with Mediterranean accents and crunchy crumble', price: '€ 16,50' },
+      { name: 'Pasta con Tonno e Melanzane', description: 'Pasta with tender tuna, fried aubergine and fresh mint in a light cherry tomato and white wine sauce', price: '€ 17,50' },
+      { name: 'Risotto ai Porcini', description: 'Creamy Arborio rice with aromatic porcini mushrooms, fresh butter and fine Parmesan', price: '€ 19,50' },
+      { name: 'Tagliolini al Tartufo', description: 'Delicate ribbon pasta in a butter, truffle and Parmesan sauce, crowned with freshly shaved truffle', price: '€ 21,50' }
     ] },
     { category: 'Main courses', items: [
-      { name: 'Salmone al sesamo', description: 'Gently seared salmon in a sesame crust on orange emulsion, served with fresh daily sides', price: '€ 26,50' },
-      { name: "Pesce Spada all'acqua pazza", description: 'Pan-fried swordfish with olives and capers in a light cherry tomato sauce, served with fresh daily sides', price: '€ 24,50' },
-      { name: 'Ossobuco alla milanese', description: 'Milanese-style braised veal shank with saffron rice, served with fresh daily sides', price: '€ 28,50' },
-      { name: 'Medaglioni di cinghiale al vino rosso e prugne', description: 'Wild boar medallions in a red wine reduction with plums, served on polenta with a daily side', price: '€ 24,50' }
+      { name: 'Medaglioni di Cinghiale al Vino Rosso e Prugne', description: 'Tender wild boar medallions in a refined red wine reduction with dried plums on polenta, served with a fresh daily side', price: '€ 24,50' },
+      { name: 'Tonno al Sesamo', description: 'Quick-seared tuna steak in a crisp sesame crust with red wine reduction and sweet-and-sour braised onions, served with fresh daily sides', price: '€ 26,50' },
+      { name: 'Ossobuco con Purea di Patate', description: 'Slow-braised veal shank, prepared in the classic style and served on silky mashed potatoes', price: '€ 27,50' }
     ] },
     { category: 'Pizzas', items: [
-      { name: 'Pizza con nduja', description: 'Tomato sauce, mozzarella, spicy spreadable sausage, Gorgonzola and onions', price: '€ 16,50' },
-      { name: 'Pizza Salsiccia', description: 'Tomato sauce, Burrata mozzarella, Italian fresh sausage, arugula and cherry tomatoes', price: '€ 17,-' },
-      { name: 'Pizza bianca al Tartufo', description: 'Truffle cream, mozzarella, bacon, Gorgonzola, fresh mushrooms and Parmesan shavings', price: '€ 17,50' }
+      { name: 'Pizza Calzone', description: 'A classic folded pizza generously filled with fruity tomato sauce, melted mozzarella, spicy salami and fresh mushrooms', price: '€ 16,50' },
+      { name: 'Pizza Salsiccia', description: 'Topped with fruity tomato sauce, creamy burrata, savory Italian salsiccia, crisp arugula and cherry tomatoes', price: '€ 17,00' },
+      { name: 'Pizza Bianca al Tartufo', description: 'A white pizza with fine truffle cream, mozzarella, savory bacon, Gorgonzola, fresh mushrooms and delicate Parmesan shavings', price: '€ 17,50' }
     ] },
     { category: 'Desserts', items: [
-      { name: 'Tartufo affogato al caffe', description: 'A semi-frozen dessert of coffee and zabaglione cream with a coffee sauce center, coated in white meringue pieces and “drowned” in espresso', price: '€ 8,50' }
+      { name: 'Tartufo Affogato al Caffè', description: 'A semi-frozen delight of coffee and zabaglione cream with a liquid coffee center, coated in crunchy meringue pieces and drowned in hot espresso', price: '€ 8,50' }
     ] }
   ]
 };
