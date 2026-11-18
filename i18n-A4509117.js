@@ -189,9 +189,9 @@ window.WEEKLY_MENU = {
       { name: 'Tagliolini al Tartufo', description: 'Hauchdünne Bandnudeln in edler Butter-Trüffel-Parmesan-Sauce, krönend vollendet mit frisch gehobeltem Trüffel', price: '€ 21,50' }
     ] },
     { category: 'Secondi', items: [
-      { name: 'Medaglioni di Cinghiale al Vino Rosso e Prugne', description: 'Zarte Wildschweinmedaillons in edler Rotweinreduktion mit gedörrten Pflaumen auf Polenta, serviert mit marktfrischer Tagesbeilage', price: '€ 24,50' },
+      { name: 'Medaglioni di Cinghiale al Vino Rosso e Prugne', description: 'Zarte Wildschweinmedaillons in edler Rotweinreduktion mit gedörrten Pflaumen auf Polenta, serviert mit Tagesbeilage', price: '€ 24,50' },
       { name: 'Tonno al Sesamo', description: 'Kurz gebratenes Thunfischsteak im knusprigen Sesammantel an Rotweinreduktion und süß-sauer geschmorten Zwiebeln, begleitet von frischen Tagesbeilagen', price: '€ 26,50' },
-      { name: 'Ossobuco con Purea di Patate', description: 'Langsam geschmorte Kalbshaxe nach klassischer Art auf samtigem Kartoffelpüree', price: '€ 27,50' }
+      { name: 'Guancia di manzo con Purea di Patate', description: 'Langsam geschmorte Rinderbäckchen in kräftiger Rotweinjus auf samtigem Kartoffelpüree und Gemüse.', price: '€ 28,50' }
     ] },
     { category: 'Pizze', items: [
       { name: 'Pizza Calzone', description: 'Klassisch gefaltet, reichhaltig belegt mit fruchtiger Tomatensauce, schmelzendem Mozzarella, pikanter Salami und frischen Champignons', price: '€ 16,50' },
@@ -215,7 +215,7 @@ window.WEEKLY_MENU = {
     { category: 'Main courses', items: [
       { name: 'Medaglioni di Cinghiale al Vino Rosso e Prugne', description: 'Tender wild boar medallions in a refined red wine reduction with dried plums on polenta, served with a fresh daily side', price: '€ 24,50' },
       { name: 'Tonno al Sesamo', description: 'Quick-seared tuna steak in a crisp sesame crust with red wine reduction and sweet-and-sour braised onions, served with fresh daily sides', price: '€ 26,50' },
-      { name: 'Ossobuco con Purea di Patate', description: 'Slow-braised veal shank, prepared in the classic style and served on silky mashed potatoes', price: '€ 27,50' }
+      { name: 'Guancia di manzo con Purea di Patate', description: 'Slow-braised beef cheeks in a rich red wine jus, served with silky mashed potatoes and vegetables.', price: '€ 28,50' }
     ] },
     { category: 'Pizzas', items: [
       { name: 'Pizza Calzone', description: 'A classic folded pizza generously filled with fruity tomato sauce, melted mozzarella, spicy salami and fresh mushrooms', price: '€ 16,50' },
